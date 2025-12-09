@@ -1,26 +1,29 @@
 import './SavedNewsHeader.css';
 
-function SavedNewsHeader({ total, keywords }) {
-  const topKeywords = keywords.slice(0, 3);
+function SavedNewsHeader({ total, keywords, userName }) {
+  const topKeywords = keywords.slice(0, 2);
   const remaining = keywords.length - topKeywords.length;
+
+  const formatKeywords = () => {
+    if (topKeywords.length === 0) return '';
+    const keywordText = topKeywords.join(', ');
+    if (remaining > 0) {
+      return `${keywordText}, e ${remaining} outras`;
+    }
+    return keywordText;
+  };
 
   return (
     <header className="saved-header">
       <p className="saved-header__eyebrow">Artigos salvos</p>
-      <h1 className="saved-header__title">Marcelo, você tem {total} artigos salvos</h1>
-      <p className="saved-header__keywords">
-        {topKeywords.length > 0 ? (
-          <>
-            Por palavras-chave:{' '}
-            <strong className="saved-header__highlight">
-              {topKeywords.join(', ')}
-              {remaining > 0 ? ` e mais ${remaining}` : ''}
-            </strong>
-          </>
-        ) : (
-          'Nenhuma palavra-chave ainda.'
-        )}
-      </p>
+      <h1 className="saved-header__title">
+        {userName}, você tem {total} artigos salvos
+      </h1>
+      {keywords.length > 0 && (
+        <p className="saved-header__keywords">
+          Por palavras-chave: {formatKeywords()}
+        </p>
+      )}
     </header>
   );
 }

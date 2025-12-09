@@ -1,0 +1,576 @@
+/* Mobile_Main_Results_Not_Logged_In */
+
+position: relative;
+width: 320px;
+height: 568px;
+
+background: #FFFFFF;
+
+
+/* header */
+
+position: absolute;
+width: 320px;
+height: 536px;
+left: 0px;
+top: 0px;
+
+
+
+/* georgia-de-lotz--UsJoNxLaNo-unsplash */
+
+position: absolute;
+width: 320px;
+height: 536px;
+left: 0px;
+top: 0px;
+
+background: url(georgia-de-lotz--UsJoNxLaNo-unsplash.jpg);
+
+
+/* mobile/header */
+
+position: absolute;
+width: 320px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.01);
+box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+visibility: hidden;
+left: 50%;
+right: 31.88%;
+top: 94.64%;
+bottom: 0%;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* icon/menu */
+
+position: absolute;
+visibility: hidden;
+left: 87.5%;
+right: 5%;
+top: 28.57%;
+bottom: 28.57%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Rectangle 11 */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 33.33%;
+bottom: 58.33%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 58.33%;
+bottom: 33.33%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* search-field */
+
+position: absolute;
+width: 288px;
+height: 128px;
+left: 16px;
+top: 376px;
+
+
+
+/* button */
+
+position: absolute;
+width: 288px;
+height: 56px;
+left: 16px;
+top: 448px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #2F71E5;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+
+
+/* Procurar */
+
+position: absolute;
+left: 37.85%;
+right: 37.85%;
+top: 26.79%;
+bottom: 30.36%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* field */
+
+position: absolute;
+width: 288px;
+height: 56px;
+left: 16px;
+top: 376px;
+
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 288px;
+height: 56px;
+left: 16px;
+top: 376px;
+
+/* main/white */
+background: #FFFFFF;
+/* simulator/gray/divider */
+border: 1px solid #D1D2D6;
+backdrop-filter: blur(50px);
+/* Observação: filtro de pano de fundo tem suporte de navegação mínimo */
+border-radius: 100px;
+
+
+/* Política */
+
+position: absolute;
+width: 256px;
+height: 22px;
+left: 32px;
+top: 393px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* idêntico à altura da caixa ou 138% */
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* O que está acontecendo no mundo? */
+
+position: absolute;
+width: 285px;
+height: 120px;
+left: 19px;
+top: 86px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+/* ou 111% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Encontre as últimas notícias sobre qualquer tema e salve elas em sua conta pessoal */
+
+position: absolute;
+width: 288px;
+height: 72px;
+left: 16px;
+top: 218px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* close */
+
+position: absolute;
+left: 87.5%;
+right: 5%;
+top: 2.82%;
+bottom: 92.96%;
+
+
+
+/* icons/black/back */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* bound */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Path 5 */
+
+position: absolute;
+left: 44.11%;
+right: 22.05%;
+top: 22.05%;
+bottom: 22.05%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* Path 5 */
+
+position: absolute;
+left: 23.27%;
+right: 42.89%;
+top: 22.05%;
+bottom: 22.05%;
+
+/* main/white */
+background: #FFFFFF;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 19 */
+
+position: absolute;
+width: 320px;
+height: 560px;
+left: 0px;
+top: 56px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 320px;
+height: 560px;
+left: 0px;
+top: 56px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+
+
+/* ou Inscreva-se */
+
+position: absolute;
+width: 226px;
+height: 20px;
+left: 47px;
+top: 344px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* button */
+
+position: absolute;
+width: 288px;
+height: 64px;
+left: 16px;
+top: 264px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* simulator/gray/selected */
+background: #E6E8EB;
+border-radius: 100px;
+
+
+/* Entrar */
+
+position: absolute;
+left: 27.43%;
+right: 27.43%;
+top: 31.25%;
+bottom: 31.25%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* Field 2 */
+
+position: absolute;
+width: 288px;
+height: 47px;
+left: 16px;
+top: 194px;
+
+
+
+/* Это обязательное поле */
+
+position: absolute;
+visibility: hidden;
+width: 148px;
+height: 10.99px;
+left: 16px;
+top: 245.01px;
+
+font-family: 'Inter';
+font-style: normal;
+font-size: 12px;
+line-height: 15px;
+
+color: #FF0000;
+
+
+
+/* Line 2.1 */
+
+position: absolute;
+width: 288px;
+height: 0px;
+left: 16px;
+top: 241px;
+
+opacity: 0.2;
+border: 1px solid #000000;
+
+
+/* Insira a senha */
+
+position: absolute;
+width: 137px;
+height: 14px;
+left: 16px;
+top: 216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+opacity: 0.2;
+
+
+/* Senha */
+
+position: absolute;
+width: 139px;
+height: 14px;
+left: 16px;
+top: 194px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #2F71E5;
+
+
+
+/* Field 1 */
+
+position: absolute;
+width: 288px;
+height: 46px;
+left: 16px;
+top: 118px;
+
+
+
+/* Это обязательное поле */
+
+position: absolute;
+visibility: hidden;
+width: 148px;
+height: 10.99px;
+left: 17px;
+top: 168.01px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FF0000;
+
+
+
+/* Line 2 */
+
+position: absolute;
+width: 288px;
+height: 0px;
+left: 16px;
+top: 164px;
+
+opacity: 0.2;
+border: 1px solid #000000;
+
+
+/* Insira e-mail */
+
+position: absolute;
+width: 106px;
+height: 14px;
+left: 16px;
+top: 140px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+opacity: 0.2;
+
+
+/* E-mail */
+
+position: absolute;
+width: 66px;
+height: 14px;
+left: 16px;
+top: 118px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #2F71E5;
+
+
+
+/* Entrar */
+
+position: absolute;
+width: 158px;
+height: 28px;
+left: 17px;
+top: 72px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+

@@ -1,0 +1,466 @@
+/* Signup_Success */
+
+position: relative;
+width: 1440px;
+height: 720px;
+
+background: #FFFFFF;
+
+
+/* about-author */
+
+position: absolute;
+width: 1440px;
+height: 624px;
+left: 0px;
+top: 576px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* comment/avatar/image-03 */
+
+position: absolute;
+left: 7.22%;
+right: 60.56%;
+top: 12.82%;
+bottom: 12.82%;
+
+
+
+/* comment/avatar/image-03 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(jakayla-toney-LmF4eBYs08c-unsplash.jpg);
+border-radius: 1000px;
+
+
+/* search */
+
+position: absolute;
+width: 1440px;
+height: 576px;
+left: 0px;
+top: 0px;
+
+
+
+/* georgia-de-lotz--UsJoNxLaNo-unsplash */
+
+position: absolute;
+width: 1440px;
+height: 576px;
+left: 0px;
+top: 0px;
+
+background: url(georgia-de-lotz--UsJoNxLaNo-unsplash.jpg);
+
+
+/* header/logout */
+
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.01);
+box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 80.56%;
+right: 7.22%;
+top: 23.75%;
+bottom: 16.25%;
+
+/* main/white */
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+
+
+/* Entrar */
+
+position: absolute;
+left: 81.39%;
+right: 8.06%;
+top: 38.59%;
+bottom: 35.16%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Home */
+
+position: absolute;
+left: 74.24%;
+right: 22.36%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+visibility: hidden;
+left: 86.88%;
+right: 6.74%;
+top: 96.25%;
+bottom: 0%;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 73.47%;
+right: 21.81%;
+top: 96.25%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* NewsExplorer */
+
+position: absolute;
+left: 7.22%;
+right: 78.89%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 120% */
+display: flex;
+align-items: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* O que está acontecendo no mundo? */
+
+position: absolute;
+width: 701.69px;
+height: 128px;
+left: 416px;
+top: 160px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 64px;
+/* ou 107% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Encontre as últimas notícias sobre qualquer tema e salve elas em sua conta pessoal */
+
+position: absolute;
+width: 545px;
+height: 48px;
+left: 416px;
+top: 320px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* search-field */
+
+position: absolute;
+width: 608px;
+height: 64px;
+left: 416px;
+top: 432px;
+
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 608px;
+height: 64px;
+left: 416px;
+top: 432px;
+
+background: #FFFFFF;
+/* simulator/gray/divider */
+border: 1px solid #D1D2D6;
+backdrop-filter: blur(4px);
+/* Observação: filtro de pano de fundo tem suporte de navegação mínimo */
+border-radius: 100px;
+
+
+/* button */
+
+position: absolute;
+width: 168px;
+height: 64px;
+left: 856px;
+top: 432px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #2F71E5;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+
+
+/* Procurar */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 28.35%;
+bottom: 34.15%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Inserir tema */
+
+position: absolute;
+width: 376px;
+height: 22px;
+left: 440px;
+top: 453px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* idêntico à altura da caixa ou 138% */
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* Overlay */
+
+position: absolute;
+width: 1440px;
+height: 720px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+opacity: 0.5;
+
+
+/* Form */
+
+position: absolute;
+width: 430px;
+height: 182px;
+left: 505px;
+top: 279px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 430px;
+height: 182px;
+left: 505px;
+top: 279px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+border-radius: 16px;
+
+
+/* Entrar */
+
+position: absolute;
+width: 228px;
+height: 18px;
+left: 541px;
+top: 392px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #2F71E5;
+
+
+
+/* Cadastro concluído com sucesso! */
+
+position: absolute;
+width: 315px;
+height: 56px;
+left: 541px;
+top: 322px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+
+
+/* close */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 935px;
+top: 184px;
+
+
+
+/* icons/black/back */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* bound */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Path 5 */
+
+position: absolute;
+left: 44.11%;
+right: 22.05%;
+top: 22.05%;
+bottom: 22.05%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* Path 5 */
+
+position: absolute;
+left: 23.27%;
+right: 42.89%;
+top: 22.05%;
+bottom: 22.05%;
+
+/* main/white */
+background: #FFFFFF;
+transform: matrix(-1, 0, 0, 1, 0, 0);

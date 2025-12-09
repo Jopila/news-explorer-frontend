@@ -1,107 +1,236 @@
 import { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import SavedNews from './components/SavedNews/SavedNews';
 import LoginPopup from './components/LoginPopup/LoginPopup';
+import SignupPopup from './components/SignupPopup/SignupPopup';
+import SignupSuccessPopup from './components/SignupSuccessPopup/SignupSuccessPopup';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
 const newsCards = [
   {
     id: '1',
-    keyword: 'Tecnologia',
-    title: 'Todo mundo precisa de um “Lugar Especial para Sentar” na natureza',
+    keyword: 'Natureza',
+    title: 'Todo mundo precisa de um "Lugar Especial para Sentar" especial na naturezaza',
     description:
-      'Desde que li o influente livro de Richard Louv, “O Último Filho na Floresta”, a ideia de ter um “lugar para sentar” especial me pegou de jeito.',
+      'Desde que li o influente livro de Richard Louv, "O Último Filho na Floresta", a ideia de ter um "lugar para sentar" especial me pegou de jeito. This advice, which Louv attributes to natureza...',
     source: 'treehugger',
     publishedAt: '4 de novembro de 2020',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: '2',
-    keyword: 'Clima',
+    keyword: 'Natureza',
     title: 'A naturezaza faz de você uma pessoa melhor',
     description:
-      'Todos nós sabemos como a natureza nos faz bem. O som dos oceanos, os aromas de uma floresta, a forma como a luz do sol dança através das folhas.',
+      'Todos nós sabemos como a natureza nos faz bem. Nós a conhecemos há milênios: o som dos oceanos, os aromas de uma floresta, a forma como a luz do sol dança através das folhas.',
     source: 'national geographic',
     publishedAt: '19 de fevereiro de 2019',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: '3',
-    keyword: 'Mercado',
+    keyword: 'Natureza',
     title: 'Grand Teton renova a histórica Crest Trail',
     description:
-      'A ligação entre as trilhas de Cascade e Death Canyon aconteceu em 1º de outubro de 1933, marcando o primeiro passo na realização de um plano...',
+      '"A ligação entre as trilhas de Cascade e Death Canyon aconteceu em 1º de outubro de 1933, e marcou o primeiro passo na realização de um plano onde o viajante será...',
     source: 'National parques traveler',
     publishedAt: '19 de outubro de 2020',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
   },
-];
-
-const savedCards = [
   {
     id: '4',
-    keyword: 'Educação',
-    title: 'Título de placeholder para artigo salvo no design',
+    keyword: 'Natureza',
+    title: 'A natureza selvagem nas montanhas',
     description:
-      'Use este texto fictício para simular a lista de artigos salvos. Ele segue o padrão visual do Figma.',
-    source: 'Global Ed',
-    publishedAt: '2024-09-12',
-    image: 'linear-gradient(135deg, #8b5cf6, #a855f7)',
+      'Explorar as montanhas é uma experiência única que conecta você com a natureza de forma profunda. As trilhas oferecem vistas deslumbrantes e momentos de paz.',
+    source: 'adventure magazine',
+    publishedAt: '15 de março de 2021',
+    image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: '5',
-    keyword: 'Saúde',
-    title: 'Placeholder extra para o estado “salvo”',
+    keyword: 'Natureza',
+    title: 'Florestas tropicais e biodiversidade',
     description:
-      'Conteúdo temporário conforme o design. Substitua assim que a integração com a API estiver pronta.',
-    source: 'Health Today',
-    publishedAt: '2024-08-30',
-    image: 'linear-gradient(135deg, #ef4444, #f97316)',
+      'As florestas tropicais abrigam mais da metade das espécies do planeta. Proteger esses ecossistemas é essencial para a sobrevivência de milhões de espécies.',
+    source: 'eco world',
+    publishedAt: '8 de julho de 2020',
+    image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80',
   },
-  ...newsCards,
+  {
+    id: '6',
+    keyword: 'Natureza',
+    title: 'O poder curativo dos oceanos',
+    description:
+      'Estudos mostram que estar perto do mar pode reduzir o estresse e melhorar a saúde mental. O som das ondas tem um efeito calmante comprovado cientificamente.',
+    source: 'health nature',
+    publishedAt: '22 de janeiro de 2021',
+    image: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=800&q=80',
+  },
 ];
 
+
 function App() {
+  const location = useLocation();
+  const isSavedNewsPage = location.pathname === '/saved-news';
+  const headerTheme = isSavedNewsPage ? 'light' : 'dark';
+
   const [results, setResults] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [hasSearched, setHasSearched] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [currentUser, setCurrentUser] = useState(null);
+  const [registeredUser, setRegisteredUser] = useState(null);
+  const [userSavedCards, setUserSavedCards] = useState([]);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const [isSignupOpen, setIsSignupOpen] = useState(false);
+  const [isSignupSuccessOpen, setIsSignupSuccessOpen] = useState(false);
+  const [signupServerError, setSignupServerError] = useState('');
 
   const handleSearch = (query) => {
     const normalizedQuery = query.trim().toLowerCase();
     if (!normalizedQuery) {
       setResults([]);
+      setHasSearched(false);
       return;
     }
 
-    const filtered = newsCards.filter((card) => {
-      const haystack = `${card.title} ${card.description} ${card.keyword}`.toLowerCase();
-      return haystack.includes(normalizedQuery);
-    });
+    setIsLoading(true);
+    setResults([]);
+    setHasSearched(true);
 
-    setResults(filtered);
+    setTimeout(() => {
+      const filtered = newsCards.filter((card) => {
+        const haystack = `${card.title} ${card.description} ${card.keyword}`.toLowerCase();
+        return haystack.includes(normalizedQuery);
+      });
+
+      setResults(filtered);
+      setIsLoading(false);
+    }, 1500);
   };
 
   const handleLoginOpen = () => setIsLoginOpen(true);
   const handleLoginClose = () => setIsLoginOpen(false);
-  const handleLoginSubmit = (event) => {
-    event.preventDefault();
-    // TODO: integrar autenticação
+  const handleLoginSubmit = () => {
+    setIsLoggedIn(true);
+    setCurrentUser(registeredUser || { name: 'Usuário' });
     setIsLoginOpen(false);
   };
 
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+    setCurrentUser(null);
+  };
+
+  const handleBookmarkClick = (card) => {
+    setUserSavedCards((prev) => {
+      const isAlreadySaved = prev.some((c) => c.id === card.id);
+      if (isAlreadySaved) {
+        return prev.filter((c) => c.id !== card.id);
+      }
+      return [...prev, card];
+    });
+  };
+
+  const savedCardIds = userSavedCards.map((c) => c.id);
+
+  const handleSwitchToRegister = () => {
+    setIsLoginOpen(false);
+    setSignupServerError('');
+    setIsSignupOpen(true);
+  };
+
+  const handleSignupClose = () => {
+    setIsSignupOpen(false);
+    setSignupServerError('');
+  };
+
+  const handleSignupSubmit = ({ username }) => {
+    setRegisteredUser({ name: username });
+    setIsSignupOpen(false);
+    setSignupServerError('');
+    setIsSignupSuccessOpen(true);
+  };
+
+  const handleSwitchToLogin = () => {
+    setIsSignupOpen(false);
+    setIsSignupSuccessOpen(false);
+    setSignupServerError('');
+    setIsLoginOpen(true);
+  };
+
+  const handleSignupSuccessClose = () => {
+    setIsSignupSuccessOpen(false);
+  };
+
+  const handleBrandClick = () => {
+    setResults([]);
+    setHasSearched(false);
+    setIsLoading(false);
+  };
+
+  const isAnyPopupOpen = isLoginOpen || isSignupOpen || isSignupSuccessOpen;
+
   return (
     <div className="app">
-      <Header onLoginClick={handleLoginOpen} />
+      <Header
+        isLoggedIn={isLoggedIn}
+        currentUser={currentUser}
+        onLoginClick={handleLoginOpen}
+        onLogout={handleLogout}
+        theme={headerTheme}
+        hideMenuButton={isAnyPopupOpen}
+        onBrandClick={handleBrandClick}
+      />
       <Routes>
         <Route
           path="/"
-          element={<Main cards={results} defaultQuery="" onSearch={handleSearch} />}
+          element={
+            <Main
+              cards={results}
+              defaultQuery=""
+              onSearch={handleSearch}
+              isLoggedIn={isLoggedIn}
+              isLoading={isLoading}
+              hasSearched={hasSearched}
+              savedCardIds={savedCardIds}
+              onBookmarkClick={handleBookmarkClick}
+            />
+          }
         />
-        <Route path="/saved-news" element={<SavedNews cards={savedCards} />} />
+        <Route
+          path="/saved-news"
+          element={
+            <SavedNews
+              cards={userSavedCards}
+              onBookmarkClick={handleBookmarkClick}
+              currentUser={currentUser}
+            />
+          }
+        />
       </Routes>
-      <LoginPopup isOpen={isLoginOpen} onClose={handleLoginClose} onSubmit={handleLoginSubmit} />
+      <LoginPopup
+        isOpen={isLoginOpen}
+        onClose={handleLoginClose}
+        onSubmit={handleLoginSubmit}
+        onSwitchToRegister={handleSwitchToRegister}
+      />
+      <SignupPopup
+        isOpen={isSignupOpen}
+        onClose={handleSignupClose}
+        onSubmit={handleSignupSubmit}
+        onSwitchToLogin={handleSwitchToLogin}
+        serverError={signupServerError}
+      />
+      <SignupSuccessPopup
+        isOpen={isSignupSuccessOpen}
+        onClose={handleSignupSuccessClose}
+        onSwitchToLogin={handleSwitchToLogin}
+      />
       <Footer />
     </div>
   );

@@ -9,17 +9,11 @@
 .popup__overlay {
   position: absolute;
   inset: 0;
-  background: rgba(15, 23, 42, 0.6);
-  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .popup__content {
   position: relative;
-  width: min(520px, 90vw);
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.25);
-  padding: 24px;
   z-index: 1;
 }
 
@@ -48,8 +42,7 @@
 }
 
 .popup__body {
-  margin: 16px 0;
-  color: #334155;
+  margin: 0;
 }
 
 .popup__actions {

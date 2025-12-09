@@ -1,6 +1,14 @@
 import './NewsCard.css';
 
-function NewsCard({ card, isSavedPage = false }) {
+function NewsCard({ card, isSavedPage = false, isLoggedIn = false, isSaved = false, onBookmarkClick }) {
+  const handleBookmarkClick = () => {
+    if (onBookmarkClick) {
+      onBookmarkClick(card);
+    }
+  };
+
+  const showSavedState = isSavedPage || isSaved;
+
   return (
     <article className="news-card">
       <div className="news-card__image">
@@ -9,23 +17,30 @@ function NewsCard({ card, isSavedPage = false }) {
         ) : (
           <div className="news-card__image-placeholder" />
         )}
+        {isSavedPage && card.keyword && (
+          <span className="news-card__keyword">{card.keyword}</span>
+        )}
         <div className="news-card__bookmark-wrapper">
+          {!isLoggedIn && !isSavedPage && (
+            <div className="news-card__tooltip">Sign in to save articles</div>
+          )}
+          {isSavedPage && (
+            <div className="news-card__tooltip">Remove from saved</div>
+          )}
           <button
             type="button"
-            className={`news-card__bookmark${isSavedPage ? ' news-card__bookmark--saved' : ''}`}
-            aria-label={isSavedPage ? 'Remover dos salvos' : 'Salvar artigo'}
+            className={`news-card__bookmark${showSavedState ? ' news-card__bookmark--saved' : ''}${isSavedPage ? ' news-card__bookmark--trash' : ''}`}
+            aria-label={isSavedPage ? 'Remover dos salvos' : (showSavedState ? 'Remover dos salvos' : 'Salvar artigo')}
+            onClick={handleBookmarkClick}
+            disabled={!isLoggedIn && !isSavedPage}
           />
-          {!isSavedPage && <div className="news-card__tooltip">Faça login para salvar artigos</div>}
         </div>
       </div>
       <div className="news-card__body">
-        <div className="news-card__meta">
-          {card.keyword && <span className="news-card__keyword">{card.keyword}</span>}
-          <span className="news-card__date">{card.publishedAt}</span>
-        </div>
+        <span className="news-card__date">{card.publishedAt}</span>
         <h3 className="news-card__title">{card.title}</h3>
         <p className="news-card__description">{card.description}</p>
-        <div className="news-card__source">{card.source}</div>
+        <span className="news-card__source">{card.source}</span>
       </div>
     </article>
   );

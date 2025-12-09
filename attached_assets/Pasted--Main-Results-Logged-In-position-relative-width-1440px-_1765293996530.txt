@@ -1,0 +1,1658 @@
+/* Main_Results_Logged_In */
+
+position: relative;
+width: 1440px;
+height: 2254px;
+
+background: #FFFFFF;
+
+
+/* Group 11 */
+
+position: absolute;
+width: 1440px;
+height: 974px;
+left: 0px;
+top: 576px;
+
+
+
+/* Rectangle 2.1 */
+
+position: absolute;
+width: 1440px;
+height: 974px;
+left: 0px;
+top: 576px;
+
+background: #F5F6F7;
+
+
+/* Procurar resultados */
+
+position: absolute;
+width: 712px;
+height: 46px;
+left: 104px;
+top: 656px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+/* idêntico à altura da caixa ou 115% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* card_with_text */
+
+position: absolute;
+width: 400px;
+height: 576px;
+left: 104px;
+top: 766px;
+
+
+
+/* card */
+
+position: absolute;
+width: 400px;
+height: 576px;
+left: 104px;
+top: 766px;
+
+
+
+/* shadow */
+
+position: absolute;
+visibility: hidden;
+left: 4%;
+right: 4%;
+top: 3.08%;
+bottom: -1.54%;
+
+background: rgba(8, 29, 45, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* card/image_08 */
+
+position: absolute;
+width: 400px;
+height: 272px;
+left: calc(50% - 400px/2);
+top: 0px;
+
+
+
+/* card/image_08 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(nature1.jpg);
+
+
+/* Group 12 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 336px;
+top: 24px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 84%;
+right: 6%;
+top: 4.17%;
+bottom: 88.89%;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+
+/* icon/bookmark */
+
+position: absolute;
+left: 86%;
+right: 8%;
+top: 5.56%;
+bottom: 90.28%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Rectangle 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 12.5%;
+bottom: 8.33%;
+
+/* simulator/gray/text */
+border: 2px solid #B6BCBF;
+
+
+/* treehugger */
+
+position: absolute;
+width: 114px;
+height: 20px;
+left: 128px;
+top: calc(50% - 20px/2 + 181px);
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* idêntico à altura da caixa ou 125% */
+letter-spacing: 0.4px;
+text-transform: uppercase;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* 4 de novembro de 2020 */
+
+position: absolute;
+left: 8.89%;
+right: 76.88%;
+top: 46.94%;
+bottom: 52%;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* Desde que li o influente livro de Richard Louv, "O Último Filho na Floresta", a ideia de ter um "lugar para sentar" especial me pegou de jeito. This advice, which Louv attributes to natureza educator Jon Young, is for both adults and children to find... */
+
+position: absolute;
+width: 352px;
+height: 88px;
+left: 128px;
+top: 1188px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* ou 138% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Todo mundo precisa de um ''Lugar Especial para Sentar" especial na naturezaza */
+
+position: absolute;
+width: 352px;
+height: 90px;
+left: 128px;
+top: 1094px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+/* ou 115% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* shadow */
+
+position: absolute;
+left: 37.78%;
+right: 37.78%;
+top: 35.05%;
+bottom: 40.11%;
+
+background: rgba(8, 29, 45, 0.1);
+filter: blur(29px);
+
+
+/* card_with_text */
+
+position: absolute;
+width: 400px;
+height: 576px;
+left: 520px;
+top: 766px;
+
+
+
+/* card */
+
+position: absolute;
+width: 400px;
+height: 576px;
+left: 520px;
+top: 766px;
+
+
+
+/* shadow */
+
+position: absolute;
+visibility: hidden;
+left: 4%;
+right: 4%;
+top: 3.08%;
+bottom: -1.54%;
+
+background: rgba(8, 29, 45, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* card/image_04 */
+
+position: absolute;
+width: 400px;
+height: 272px;
+left: calc(50% - 400px/2);
+top: 0px;
+
+
+
+/* card/image_04 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(nature2.jpg);
+
+
+/* Group 12 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 336px;
+top: 24px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 84%;
+right: 6%;
+top: 8.82%;
+bottom: 76.47%;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+
+/* icon/bookmark */
+
+position: absolute;
+left: 86%;
+right: 8%;
+top: 11.76%;
+bottom: 79.41%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 12.5%;
+bottom: 8.33%;
+
+background: #2F71E5;
+
+
+/* national geographic */
+
+position: absolute;
+width: 352px;
+height: 20px;
+left: 544px;
+top: calc(50% - 20px/2 + 181px);
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* idêntico à altura da caixa ou 125% */
+letter-spacing: 0.4px;
+text-transform: uppercase;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* 19 de fevereiro de 2019 */
+
+position: absolute;
+left: 38.19%;
+right: 46.67%;
+top: 46.94%;
+bottom: 52%;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* We all know how good natureza can make us feel. Nós a conhecemos há milênios: o som dos oceanos, os aromas de uma floresta, a forma como a luz do sol dança através das folhas.
+из местных чудес природы. */
+
+position: absolute;
+width: 352px;
+height: 88px;
+left: 544px;
+top: 1188px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* ou 138% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* A naturezaza faz de você uma pessoa melhor */
+
+position: absolute;
+width: 352px;
+height: 60px;
+left: 544px;
+top: 1094px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+/* ou 115% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* cursor/lapka */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 744px;
+top: 1046px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+
+
+/* Group Copy 11 */
+
+position: absolute;
+left: 20.83%;
+right: 24.67%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Pointer */
+
+position: absolute;
+left: 20.83%;
+right: 24.67%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* Hand */
+
+position: absolute;
+left: 20.83%;
+right: 24.67%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* Tendon */
+
+position: absolute;
+left: 62.63%;
+right: 33.21%;
+top: 54.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* Tendon */
+
+position: absolute;
+left: 54.29%;
+right: 41.54%;
+top: 54.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* Tendon */
+
+position: absolute;
+left: 45.96%;
+right: 49.87%;
+top: 54.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* button */
+
+position: absolute;
+width: 288px;
+height: 64px;
+left: 576px;
+top: 1406px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+border-radius: 80px;
+
+
+/* Mostrar mais */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* card_with_text */
+
+position: absolute;
+width: 400px;
+height: 576px;
+left: 936px;
+top: 766px;
+
+
+
+/* card */
+
+position: absolute;
+width: 400px;
+height: 576px;
+left: 936px;
+top: 766px;
+
+
+
+/* shadow */
+
+position: absolute;
+visibility: hidden;
+left: 4%;
+right: 4%;
+top: 3.08%;
+bottom: -1.54%;
+
+background: rgba(8, 29, 45, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* card/image_07 */
+
+position: absolute;
+width: 400px;
+height: 272px;
+left: calc(50% - 400px/2);
+top: 0px;
+
+
+
+/* card/image_07 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(grandteton.jpg);
+
+
+/* Group 12 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 336px;
+top: 24px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 84%;
+right: 6%;
+top: 4.17%;
+bottom: 88.89%;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+
+/* icon/bookmark */
+
+position: absolute;
+left: 86%;
+right: 8%;
+top: 5.56%;
+bottom: 90.28%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Rectangle 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 12.5%;
+bottom: 8.33%;
+
+/* simulator/gray/text */
+border: 2px solid #B6BCBF;
+
+
+/* national geographic */
+
+position: absolute;
+width: 352px;
+height: 20px;
+left: 960px;
+top: calc(50% - 20px/2 + 181px);
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* idêntico à altura da caixa ou 125% */
+letter-spacing: 0.4px;
+text-transform: uppercase;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* 19 de outubro de 2020 */
+
+position: absolute;
+left: 66.67%;
+right: 20.4%;
+top: 46.94%;
+bottom: 52%;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* "A ligação entre as trilhas de Cascade e Death Canyon aconteceu em 1º de outubro de 1933, e marcou o primeiro passo na realização de um plano onde o viajante será... */
+
+position: absolute;
+width: 352px;
+height: 82px;
+left: 960px;
+top: 1188px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* ou 138% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Grand Teton renova a histórica Crest Trail */
+
+position: absolute;
+width: 352px;
+height: 60px;
+left: 960px;
+top: 1094px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+/* ou 115% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* about-author */
+
+position: absolute;
+width: 1440px;
+height: 624px;
+left: 0px;
+top: 1550px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* comment/avatar/image-03 */
+
+position: absolute;
+left: 7.22%;
+right: 60.56%;
+top: 12.82%;
+bottom: 12.82%;
+
+
+
+/* comment/avatar/image-03 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(jakayla-toney-LmF4eBYs08c-unsplash.jpg);
+border-radius: 1000px;
+
+
+/* Esse bloco descreve o autor do projeto. Aqui você deve indicar seu nome, o que você faz e quais tecnologias de desenvolvedor você conhece.
+
+Você também pode falar sobre sua experiência com o Practicum, o que aprendeu lá e como pode ajudar clientes em potencial. */
+
+position: absolute;
+left: 43.33%;
+right: 15%;
+top: 32.21%;
+bottom: 48.56%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+
+color: #1A1B22;
+
+
+
+/* Sobre o autor */
+
+position: absolute;
+left: 43.33%;
+right: 15%;
+top: 20.99%;
+bottom: 71.63%;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+/* idêntico à altura da caixa ou 115% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* search */
+
+position: absolute;
+width: 1440px;
+height: 576px;
+left: 0px;
+top: 0px;
+
+
+
+/* georgia-de-lotz--UsJoNxLaNo-unsplash */
+
+position: absolute;
+width: 1440px;
+height: 576px;
+left: 0px;
+top: 0px;
+
+background: url(georgia-de-lotz--UsJoNxLaNo-unsplash.jpg);
+
+
+/* O que está acontecendo no mundo? */
+
+position: absolute;
+width: 672px;
+height: 128px;
+left: 416px;
+top: 160px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 64px;
+/* ou 107% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Encontre as últimas notícias sobre qualquer tema e salve elas em sua conta pessoal */
+
+position: absolute;
+width: 608px;
+height: 48px;
+left: 416px;
+top: 320px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* search-field */
+
+position: absolute;
+width: 608px;
+height: 64px;
+left: 416px;
+top: 432px;
+
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 608px;
+height: 64px;
+left: 416px;
+top: 432px;
+
+background: #FFFFFF;
+/* simulator/gray/divider */
+border: 1px solid #D1D2D6;
+backdrop-filter: blur(4px);
+/* Observação: filtro de pano de fundo tem suporte de navegação mínimo */
+border-radius: 100px;
+
+
+/* button */
+
+position: absolute;
+width: 168px;
+height: 64px;
+left: 856px;
+top: 432px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #2F71E5;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+
+
+/* Procurar */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 31.25%;
+bottom: 31.25%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Natureza */
+
+position: absolute;
+width: 376px;
+height: 22px;
+left: 440px;
+top: 453px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* idêntico à altura da caixa ou 138% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* header/login */
+
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+
+
+/* header */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.01);
+box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+visibility: hidden;
+left: 62.08%;
+right: 31.94%;
+top: 96.25%;
+bottom: 0%;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+visibility: hidden;
+left: 54.79%;
+right: 40.35%;
+top: 96.25%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* Artigos salvos */
+
+position: absolute;
+left: 72.57%;
+right: 19.38%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* Home */
+
+position: absolute;
+left: 63.96%;
+right: 32.64%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* NewsExplorer */
+
+position: absolute;
+left: 7.22%;
+right: 78.89%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 120% */
+display: flex;
+align-items: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+visibility: hidden;
+left: 70.42%;
+right: 17.22%;
+top: 96.25%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* Group 16 */
+
+position: absolute;
+width: 112px;
+height: 48px;
+left: 1224px;
+top: 19px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 85%;
+right: 7.22%;
+top: 23.75%;
+bottom: 16.25%;
+
+/* main/white */
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+
+
+/* Elise */
+
+position: absolute;
+left: 86.32%;
+right: 9.79%;
+top: 38.75%;
+bottom: 31.25%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* icon/logout */
+
+position: absolute;
+left: 90.07%;
+right: 8.26%;
+top: 38.75%;
+bottom: 31.25%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Union */
+
+position: absolute;
+width: nanpx;
+height: nanpx;
+left: infpx;
+top: infpx;
+
+/* main/white */
+background: #FFFFFF;
+transform: matrix(nan, nan, nan, nan, -nan, -nan);
+
+
+/* Subtract */
+
+position: absolute;
+width: nanpx;
+height: nanpx;
+left: infpx;
+top: infpx;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(nan, nan, nan, nan, -nan, -nan);
+
+
+/* Union */
+
+position: absolute;
+width: nanpx;
+height: nanpx;
+left: infpx;
+top: infpx;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(nan, nan, nan, nan, -nan, -nan);
+
+
+/* Union */
+
+position: absolute;
+width: 17.41px;
+height: 16px;
+left: 4px;
+top: 4px;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* Rectangle 10 (Stroke) */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 58.33%;
+
+/* main/primary */
+background: #1A1B22;
+transform: rotate(90deg);
+
+
+/* Path 5 */
+
+position: absolute;
+left: 55.39%;
+right: 10.77%;
+top: 23.24%;
+bottom: 22.94%;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 33.33%;
+right: 20.83%;
+top: 46.14%;
+bottom: 45.83%;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* cursor/lapka */
+
+position: absolute;
+visibility: hidden;
+left: 66.39%;
+right: 31.94%;
+top: 50%;
+bottom: 20%;
+
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 63.19%;
+right: 31.94%;
+top: 3.42%;
+bottom: 96.45%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* footer */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 96.45%;
+bottom: 0%;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* © 2020 Supersite, Powered by News API */
+
+position: absolute;
+left: 7.22%;
+right: 62.71%;
+top: 40%;
+bottom: 32.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* idêntico à altura da caixa ou 138% */
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* Group 2 */
+
+position: absolute;
+left: 73.12%;
+right: 15%;
+top: 37.5%;
+bottom: 32.5%;
+
+
+
+/* Group 8 */
+
+position: absolute;
+width: 171px;
+height: 24px;
+left: 1053px;
+top: 30px;
+
+
+
+/* Home */
+
+position: absolute;
+left: 73.12%;
+right: 23.47%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+text-align: center;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Practicum */
+
+position: absolute;
+left: 79.31%;
+right: 15%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+text-align: center;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* social/vk */
+
+position: absolute;
+visibility: hidden;
+left: 87.78%;
+right: 10.56%;
+top: 35%;
+bottom: 35%;
+
+
+
+/* icons/black/vk */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Body */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Path */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 20.83%;
+bottom: 20.83%;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* icon/github */
+
+position: absolute;
+left: 87.78%;
+right: 10.56%;
+top: 35%;
+bottom: 35%;
+
+
+
+/* Rectangle */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.89%;
+right: 7.9%;
+top: 7.89%;
+bottom: 9.96%;
+
+background: #191717;
+
+
+/* social/fb */
+
+position: absolute;
+left: 91.11%;
+right: 7.22%;
+top: 35%;
+bottom: 35%;
+
+
+
+/* icons/black/fb */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Body */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* iconmonstr-facebook-6 */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;

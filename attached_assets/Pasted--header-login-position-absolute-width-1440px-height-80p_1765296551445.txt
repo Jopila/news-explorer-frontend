@@ -1,0 +1,394 @@
+/* header/login */
+
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+
+
+/* header */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+box-shadow: inset 0px -1px 0px #D1D2D6;
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+visibility: hidden;
+left: 62.08%;
+right: 31.94%;
+top: 96.25%;
+bottom: 0%;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+visibility: hidden;
+left: 54.79%;
+right: 40.35%;
+top: 96.25%;
+bottom: 0%;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* Artigos salvos */
+
+position: absolute;
+left: 72.57%;
+right: 19.38%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Главная */
+
+position: absolute;
+left: 63.96%;
+right: 32.64%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* NewsExplorer */
+
+position: absolute;
+left: 7.22%;
+right: 78.89%;
+top: 37.5%;
+bottom: 32.5%;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 120% */
+display: flex;
+align-items: center;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 70.42%;
+right: 17.22%;
+top: 96.25%;
+bottom: 0%;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* Group 16 */
+
+position: absolute;
+width: 112px;
+height: 48px;
+left: 1224px;
+top: 19px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 85%;
+right: 7.22%;
+top: 23.75%;
+bottom: 16.25%;
+
+/* main/primary */
+border: 1px solid #1A1B22;
+border-radius: 100px;
+
+
+/* Elise */
+
+position: absolute;
+left: 86.32%;
+right: 10.97%;
+top: 38.75%;
+bottom: 31.25%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* icon/logout */
+
+position: absolute;
+left: 90.07%;
+right: 8.26%;
+top: 38.75%;
+bottom: 31.25%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Union */
+
+position: absolute;
+width: nanpx;
+height: nanpx;
+left: infpx;
+top: infpx;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(nan, nan, nan, nan, -nan, -nan);
+
+
+/* Subtract */
+
+position: absolute;
+width: nanpx;
+height: nanpx;
+left: infpx;
+top: infpx;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(nan, nan, nan, nan, -nan, -nan);
+
+
+/* Union */
+
+position: absolute;
+width: nanpx;
+height: nanpx;
+left: infpx;
+top: infpx;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(nan, nan, nan, nan, -nan, -nan);
+
+
+/* Union */
+
+position: absolute;
+width: 17.41px;
+height: 16px;
+left: 4px;
+top: 4px;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* Rectangle 10 (Stroke) */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 58.33%;
+
+/* main/primary */
+background: #1A1B22;
+transform: rotate(90deg);
+
+
+/* Path 5 */
+
+position: absolute;
+left: 55.39%;
+right: 10.77%;
+top: 23.24%;
+bottom: 22.93%;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 33.33%;
+right: 20.83%;
+top: 46.14%;
+bottom: 45.83%;
+
+/* main/primary */
+background: #1A1B22;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* cursor/lapka */
+
+position: absolute;
+left: 66.39%;
+right: 31.94%;
+top: 50%;
+bottom: 20%;
+
+
+
+/* Rectangle */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+
+
+/* Group Copy 11 */
+
+position: absolute;
+left: 20.83%;
+right: 24.67%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Pointer */
+
+position: absolute;
+left: 20.83%;
+right: 24.67%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* Hand */
+
+position: absolute;
+left: 20.83%;
+right: 24.67%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* Tendon */
+
+position: absolute;
+left: 62.63%;
+right: 33.21%;
+top: 54.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* Tendon */
+
+position: absolute;
+left: 54.29%;
+right: 41.54%;
+top: 54.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;
+
+
+/* Tendon */
+
+position: absolute;
+left: 45.96%;
+right: 49.87%;
+top: 54.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 1px 2px #000000;

@@ -1,26 +1,26 @@
 import './NewsCardList.css';
 import NewsCard from '../NewsCard/NewsCard';
 
-function NewsCardList({ title, cards = [], isSavedPage = false, showEmpty = false }) {
+function NewsCardList({ cards = [], isSavedPage = false, isLoggedIn = false, savedCardIds = [], onBookmarkClick }) {
   const hasCards = cards && cards.length > 0;
 
-  return (
-    <section className="news-list">
-      {(title || showEmpty) && (
-        <div className="news-list__header">
-          {title && <h2 className="news-list__title">{title}</h2>}
-          {!hasCards && showEmpty && <p className="news-list__empty">Nada por aqui ainda.</p>}
-        </div>
-      )}
+  if (!hasCards) {
+    return null;
+  }
 
-      {hasCards && (
-        <div className="news-list__grid">
-          {cards.map((card) => (
-            <NewsCard key={card.id} card={card} isSavedPage={isSavedPage} />
-          ))}
-        </div>
-      )}
-    </section>
+  return (
+    <div className="news-list__grid">
+      {cards.map((card) => (
+        <NewsCard
+          key={card.id}
+          card={card}
+          isSavedPage={isSavedPage}
+          isLoggedIn={isLoggedIn}
+          isSaved={savedCardIds.includes(card.id)}
+          onBookmarkClick={onBookmarkClick}
+        />
+      ))}
+    </div>
   );
 }
 

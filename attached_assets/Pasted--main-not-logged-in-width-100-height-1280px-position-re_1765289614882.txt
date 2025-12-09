@@ -1,0 +1,362 @@
+.main-not-logged-in {
+  	width: 100%;
+  	height: 1280px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 18px;
+  	color: #fff;
+  	font-family: Roboto;
+}
+.footer {
+  	position: absolute;
+  	height: 6.25%;
+  	width: 100%;
+  	top: 93.75%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	font-size: 16px;
+  	color: #b6bcbf;
+}
+.rectangle {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #fff;
+}
+.supersite-powered-by {
+  	position: absolute;
+  	height: 27.5%;
+  	width: 30.07%;
+  	top: 40%;
+  	left: 7.22%;
+  	line-height: 22px;
+  	display: inline-block;
+}
+.footer-inner {
+  	position: absolute;
+  	height: 30%;
+  	width: 11.88%;
+  	top: 37.5%;
+  	right: 15%;
+  	bottom: 32.5%;
+  	left: 73.13%;
+  	text-align: center;
+  	font-size: 18px;
+  	color: #1a1b22;
+}
+.home-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.home {
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+  	line-height: 24px;
+}
+.practicum {
+  	position: absolute;
+  	top: 0%;
+  	left: 52.05%;
+  	line-height: 24px;
+}
+.socialvk {
+  	position: absolute;
+  	height: 30%;
+  	width: 1.67%;
+  	top: 35%;
+  	right: 10.56%;
+  	bottom: 35%;
+  	left: 87.78%;
+  	display: none;
+}
+.path-icon {
+  	position: absolute;
+  	height: 58.33%;
+  	width: 91.67%;
+  	top: 20.83%;
+  	right: 4.17%;
+  	bottom: 20.83%;
+  	left: 4.17%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.icongithub {
+  	position: absolute;
+  	height: 30%;
+  	width: 1.67%;
+  	top: 35%;
+  	right: 10.56%;
+  	bottom: 35%;
+  	left: 87.78%;
+}
+.rectangle2 {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #c4c4c4;
+  	display: none;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 82.08%;
+  	width: 84.17%;
+  	top: 7.89%;
+  	right: 7.94%;
+  	bottom: 10.02%;
+  	left: 7.89%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.socialfb {
+  	position: absolute;
+  	height: 30%;
+  	width: 1.67%;
+  	top: 35%;
+  	right: 7.22%;
+  	bottom: 35%;
+  	left: 91.11%;
+}
+.iconmonstr-facebook-6 {
+  	position: absolute;
+  	height: 83.33%;
+  	width: 83.33%;
+  	top: 8.33%;
+  	right: 8.33%;
+  	bottom: 8.33%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.about-author {
+  	position: absolute;
+  	top: 576px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 624px;
+  	color: #1a1b22;
+}
+.commentavatarimage-03-icon {
+  	position: absolute;
+  	height: 74.36%;
+  	width: 32.22%;
+  	top: 12.82%;
+  	right: 60.56%;
+  	bottom: 12.82%;
+  	left: 7.22%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.esse-bloco-descreve {
+  	position: absolute;
+  	width: 41.67%;
+  	top: 32.21%;
+  	left: 43.33%;
+  	line-height: 24px;
+  	display: inline-block;
+}
+.sobre-o-autor {
+  	position: absolute;
+  	width: 41.67%;
+  	top: 20.99%;
+  	left: 43.33%;
+  	font-size: 40px;
+  	line-height: 46px;
+  	font-family: 'Roboto Slab';
+  	display: inline-block;
+}
+.search {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 576px;
+}
+.georgia-de-lotz-usjonxlano-un-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 576px;
+  	object-fit: cover;
+}
+.o-que-est {
+  	position: absolute;
+  	top: 160px;
+  	left: 416px;
+  	font-size: 60px;
+  	line-height: 64px;
+  	font-family: 'Roboto Slab';
+  	display: inline-block;
+  	width: 702px;
+}
+.encontre-as-ltimas {
+  	position: absolute;
+  	top: 320px;
+  	left: 416px;
+  	line-height: 24px;
+  	display: inline-block;
+  	width: 608px;
+}
+.search-field {
+  	position: absolute;
+  	top: 432px;
+  	left: 416px;
+  	width: 608px;
+  	height: 64px;
+  	text-align: center;
+}
+.search-field-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 100px;
+  	width: 608px;
+  	height: 64px;
+}
+.button {
+  	position: absolute;
+  	top: 0px;
+  	left: 440px;
+  	width: 168px;
+  	height: 64px;
+}
+.rectangle3 {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+  	border-radius: 100px;
+  	background-color: #2f71e5;
+}
+.procurar {
+  	position: absolute;
+  	top: 31.25%;
+  	left: 29.17%;
+  	line-height: 24px;
+  	font-weight: 500;
+}
+.inserir-tema {
+  	position: absolute;
+  	top: 21px;
+  	left: 24px;
+  	font-size: 16px;
+  	line-height: 22px;
+  	color: #b6bcbf;
+  	text-align: left;
+  	display: inline-block;
+  	width: 376px;
+}
+.headerlogout {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 80px;
+  	text-align: center;
+}
+.bg {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.2) inset;
+  	background-color: rgba(196, 196, 196, 0.01);
+}
+.rectangle4 {
+  	position: absolute;
+  	height: 60%;
+  	width: 12.22%;
+  	top: 23.75%;
+  	right: 7.22%;
+  	bottom: 16.25%;
+  	left: 80.56%;
+  	border-radius: 100px;
+  	border: 1px solid #fff;
+  	box-sizing: border-box;
+}
+.entrar {
+  	position: absolute;
+  	height: 30%;
+  	width: 10.56%;
+  	top: 38.75%;
+  	left: 81.39%;
+  	line-height: 24px;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.home2 {
+  	position: absolute;
+  	top: 37.5%;
+  	left: 74.24%;
+  	line-height: 24px;
+  	font-weight: 500;
+}
+.vector-stroke-icon {
+  	position: absolute;
+  	height: 3.75%;
+  	width: 6.39%;
+  	top: 96.25%;
+  	right: 6.74%;
+  	bottom: 0%;
+  	left: 86.88%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	display: none;
+}
+.vector-stroke-icon2 {
+  	position: absolute;
+  	height: 3.75%;
+  	width: 4.72%;
+  	top: 96.25%;
+  	right: 21.81%;
+  	bottom: 0%;
+  	left: 73.47%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.newsexplorer {
+  	position: absolute;
+  	width: 13.89%;
+  	top: 37.5%;
+  	left: 7.22%;
+  	font-size: 20px;
+  	line-height: 24px;
+  	display: flex;
+  	font-family: 'Roboto Slab';
+  	text-align: left;
+  	align-items: center;
+}
+

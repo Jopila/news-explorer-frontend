@@ -1,0 +1,218 @@
+.signup-popup {
+  width: 430px;
+  position: relative;
+  text-align: center;
+  font-family: Inter, sans-serif;
+}
+
+.signup-popup__form {
+  position: relative;
+  margin: 0 auto;
+  width: 430px;
+  min-height: 458px;
+  text-align: left;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  padding: 34px 36px 28px;
+  box-sizing: border-box;
+}
+
+.signup-popup__close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-popup__close:hover {
+  opacity: 0.7;
+}
+
+.signup-popup__close-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.signup-popup__title {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #1a1b22;
+  margin: 0 0 22px;
+}
+
+.signup-popup__field {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.signup-popup__field--last {
+  margin-bottom: 24px;
+}
+
+.signup-popup__label {
+  display: block;
+  font-size: 12px;
+  color: #2f71e5;
+  margin-bottom: 0;
+}
+
+.signup-popup__input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  color: #1a1b22;
+  padding: 9px 0 11px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.signup-popup__input::placeholder {
+  color: #000;
+  opacity: 0.2;
+}
+
+.signup-popup__input--error {
+  color: #1a1b22;
+}
+
+.signup-popup__line {
+  border-top: 1px solid #000;
+  opacity: 0.2;
+  width: 100%;
+}
+
+.signup-popup__error {
+  display: block;
+  font-size: 12px;
+  color: #ff0000;
+  margin-top: 4px;
+}
+
+.signup-popup__server-error {
+  display: block;
+  font-size: 12px;
+  color: #ff0000;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.signup-popup__button {
+  width: 100%;
+  height: 64px;
+  border: none;
+  border-radius: 100px;
+  background-color: #e6e8eb;
+  color: #b6bcbf;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: not-allowed;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.signup-popup__button--active {
+  background-color: #2f71e5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup-popup__button--active:hover {
+  opacity: 0.9;
+}
+
+.signup-popup__switch {
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  margin: 16px 0 0;
+}
+
+.signup-popup__switch-link {
+  color: #2f71e5;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signup-popup__switch-link:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 640px) {
+  .signup-popup {
+    width: 320px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .signup-popup__form {
+    width: 320px;
+    min-height: 560px;
+    padding: 16px;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .signup-popup__close {
+    position: absolute;
+    top: -40px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .signup-popup__close-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .signup-popup__title {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 46px 0 22px;
+  }
+
+  .signup-popup__field {
+    width: 288px;
+    margin-bottom: 30px;
+  }
+
+  .signup-popup__field--last {
+    margin-bottom: 24px;
+  }
+
+  .signup-popup__input {
+    font-size: 14px;
+    padding: 9px 0 11px;
+  }
+
+  .signup-popup__button {
+    width: 288px;
+    height: 64px;
+    font-size: 18px;
+  }
+
+  .signup-popup__switch {
+    font-size: 14px;
+    margin: 16px 0 0;
+  }
+}

@@ -1,0 +1,1204 @@
+/* Mobile_Main_Results_Not_Logged_In */
+
+position: relative;
+width: 320px;
+height: 3032px;
+
+background: #FFFFFF;
+
+
+/* mobile/futer */
+
+position: absolute;
+width: 320px;
+height: 176px;
+left: 0px;
+top: 2856px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* © 2020 Supersite, Powered by News API */
+
+position: absolute;
+left: 5%;
+right: 5%;
+top: 75%;
+bottom: 12.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+/* idêntico à altura da caixa ou 169% */
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* Home Practicum by Yandex */
+
+position: absolute;
+left: 5%;
+right: 32.5%;
+top: 11.36%;
+bottom: 46.59%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 48px;
+/* ou 267% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* icon/github */
+
+position: absolute;
+left: 72.5%;
+right: 20%;
+top: 11.36%;
+bottom: 75%;
+
+
+
+/* Rectangle */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.89%;
+right: 7.89%;
+top: 7.89%;
+bottom: 9.96%;
+
+background: #191717;
+
+
+/* social/fb */
+
+position: absolute;
+left: 87.5%;
+right: 5%;
+top: 11.36%;
+bottom: 75%;
+
+
+
+/* icons/black/fb */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Body */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* iconmonstr-facebook-6 */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* mobile/about */
+
+position: absolute;
+width: 320px;
+height: 752px;
+left: 0px;
+top: 2104px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 320px;
+height: 752px;
+left: 0px;
+top: 2104px;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* comment/avatar/image-03 */
+
+position: absolute;
+width: 272px;
+height: 272px;
+left: 24px;
+top: 2136px;
+
+
+
+/* comment/avatar/image-03 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(jakayla-toney-LmF4eBYs08c-unsplash.jpg);
+border-radius: 1000px;
+
+
+/* Esse bloco descreve o autor do projeto. Aqui você deve indicar seu nome, o que você faz e quais tecnologias de desenvolvedor você conhece.
+
+Você também pode falar sobre sua experiência com o Practicum, o que aprendeu lá e como pode ajudar clientes em potencial. */
+
+position: absolute;
+width: 288px;
+height: 240px;
+left: 16px;
+top: 2488px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+
+color: #1A1B22;
+
+
+
+/* Sobre o autor */
+
+position: absolute;
+width: 288px;
+height: 40px;
+left: 16px;
+top: 2432px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* idêntico à altura da caixa ou 133% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Group 3 */
+
+position: absolute;
+width: 320px;
+height: 1568px;
+left: 0px;
+top: 536px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 320px;
+height: 1568px;
+left: 0px;
+top: 536px;
+
+background: #F5F6F7;
+
+
+/* Group */
+
+position: absolute;
+width: 288px;
+height: 440px;
+left: 16px;
+top: 660px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+height: 440px;
+left: 5%;
+right: 5%;
+top: 660px;
+
+/* main/white */
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* bg */
+
+position: absolute;
+height: 440px;
+left: 5%;
+right: 5%;
+top: 660px;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* treehugger */
+
+position: absolute;
+width: 256px;
+height: 20px;
+left: 32px;
+top: 1064px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* idêntico à altura da caixa ou 125% */
+letter-spacing: 0.4px;
+text-transform: uppercase;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* 4 de novembro de 2020 */
+
+position: absolute;
+height: 24px;
+left: 10%;
+right: 10%;
+top: 872px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* Desde que li o influente livro de Richard Louv, "O Último Filho na Floresta", a ideia de ter um "lugar para sentar" especial me pegou de jeito.  */
+
+position: absolute;
+width: 256px;
+height: 66px;
+left: 32px;
+top: 968px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* ou 138% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Todo mundo precisa de um ''Lugar Especial... */
+
+position: absolute;
+width: 256px;
+height: 48px;
+left: 32px;
+top: 906px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+/* ou 109% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* card/image_08 */
+
+position: absolute;
+width: 288px;
+height: 196px;
+left: calc(50% - 288px/2);
+top: 660px;
+
+
+
+/* card/image_08 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(nature1.jpg);
+
+
+/* Group 12 */
+
+position: absolute;
+left: 80.56%;
+right: 5.56%;
+top: 8.16%;
+bottom: 71.43%;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 80.56%;
+right: 5.56%;
+top: 8.16%;
+bottom: 71.43%;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+
+/* icon/bookmark */
+
+position: absolute;
+left: 83.33%;
+right: 8.33%;
+top: 12.24%;
+bottom: 75.51%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Rectangle 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 12.5%;
+bottom: 8.33%;
+
+/* simulator/gray/text */
+border: 2px solid #B6BCBF;
+
+
+/* Group */
+
+position: absolute;
+width: 288px;
+height: 444px;
+left: 16px;
+top: 1110px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+height: 444px;
+left: 5%;
+right: 5%;
+top: 1110px;
+
+/* main/white */
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* bg */
+
+position: absolute;
+height: 440px;
+left: 5%;
+right: 5%;
+top: 1109px;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* national geographic */
+
+position: absolute;
+width: 256px;
+height: 20px;
+left: 32px;
+top: 1513px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* idêntico à altura da caixa ou 125% */
+letter-spacing: 0.4px;
+text-transform: uppercase;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* 19 de fevereiro de 2019 */
+
+position: absolute;
+height: 24px;
+left: 10%;
+right: 10%;
+top: 1322px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* We all know how good natureza can make us feel. We have known it for millennia: the sound of the ocean, the scents of a forest, the .. */
+
+position: absolute;
+width: 256px;
+height: 66px;
+left: 32px;
+top: 1420px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* ou 138% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* A naturezaza faz de você uma pessoa melhor */
+
+position: absolute;
+width: 256px;
+height: 48px;
+left: 32px;
+top: 1356px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+/* ou 109% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* card/image_06 */
+
+position: absolute;
+width: 288px;
+height: 196px;
+left: calc(50% - 288px/2);
+top: 1110px;
+
+
+
+/* card/image_06 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(nature2.jpg);
+
+
+/* Group 12 */
+
+position: absolute;
+left: 80.56%;
+right: 5.56%;
+top: 8.16%;
+bottom: 71.43%;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 80.56%;
+right: 5.56%;
+top: 8.16%;
+bottom: 71.43%;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+
+/* icon/bookmark */
+
+position: absolute;
+left: 83.33%;
+right: 8.33%;
+top: 12.24%;
+bottom: 75.51%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Rectangle 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 12.5%;
+bottom: 8.33%;
+
+/* simulator/gray/text */
+border: 2px solid #B6BCBF;
+
+
+/* Group */
+
+position: absolute;
+width: 288px;
+height: 444px;
+left: 16px;
+top: 1564px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+height: 444px;
+left: 5%;
+right: 5%;
+top: 1564px;
+
+/* main/white */
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* bg */
+
+position: absolute;
+height: 440px;
+left: 5%;
+right: 5%;
+top: 1563px;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* National parques Traveler */
+
+position: absolute;
+width: 256px;
+height: 20px;
+left: 32px;
+top: 1967px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* idêntico à altura da caixa ou 125% */
+letter-spacing: 0.4px;
+text-transform: uppercase;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* 4 de novembro de 2020 */
+
+position: absolute;
+height: 24px;
+left: 10%;
+right: 10%;
+top: 1776px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* "A ligação entre as trilhas de Cascade e Death Canyon aconteceu em... */
+
+position: absolute;
+width: 256px;
+height: 66px;
+left: 32px;
+top: 1872px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* ou 138% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Grand Teton renova a histórica Crest Trail */
+
+position: absolute;
+width: 256px;
+height: 48px;
+left: 32px;
+top: 1810px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+/* ou 109% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* card/image_07 */
+
+position: absolute;
+width: 288px;
+height: 196px;
+left: calc(50% - 288px/2);
+top: 1564px;
+
+
+
+/* card/image_07 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(grandteton.jpg);
+
+
+/* Group 12 */
+
+position: absolute;
+left: 80.56%;
+right: 5.56%;
+top: 8.16%;
+bottom: 71.43%;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 80.56%;
+right: 5.56%;
+top: 8.16%;
+bottom: 71.43%;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+
+/* icon/bookmark */
+
+position: absolute;
+left: 83.33%;
+right: 8.33%;
+top: 12.24%;
+bottom: 75.51%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Rectangle 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 12.5%;
+bottom: 8.33%;
+
+/* simulator/gray/text */
+border: 2px solid #B6BCBF;
+
+
+/* button */
+
+position: absolute;
+width: 288px;
+height: 56px;
+left: 16px;
+top: 2024px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* main/white */
+background: #FFFFFF;
+border-radius: 80px;
+
+
+/* Mostrar mais */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 28.57%;
+bottom: 28.57%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Procurar resultados */
+
+position: absolute;
+width: 288px;
+height: 34px;
+left: 16px;
+top: 568px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+/* idêntico à altura da caixa ou 113% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Rectangle */
+
+position: absolute;
+visibility: hidden;
+width: 216px;
+height: 32px;
+left: 16px;
+top: 652px;
+
+background: #C4C4C4;
+
+
+/* header */
+
+position: absolute;
+width: 320px;
+height: 536px;
+left: 0px;
+top: 0px;
+
+
+
+/* georgia-de-lotz--UsJoNxLaNo-unsplash */
+
+position: absolute;
+width: 320px;
+height: 536px;
+left: 0px;
+top: 0px;
+
+background: url(georgia-de-lotz--UsJoNxLaNo-unsplash.jpg);
+
+
+/* mobile/header */
+
+position: absolute;
+width: 320px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.01);
+box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+
+
+/* NewsExplorer */
+
+position: absolute;
+left: 5%;
+right: 58.44%;
+top: 28.57%;
+bottom: 28.57%;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 150% */
+display: flex;
+align-items: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+visibility: hidden;
+left: 50%;
+right: 31.88%;
+top: 94.64%;
+bottom: 0%;
+
+/* main/primary */
+background: #1A1B22;
+
+
+/* icon/menu */
+
+position: absolute;
+left: 87.5%;
+right: 5%;
+top: 28.57%;
+bottom: 28.57%;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(196, 196, 196, 0.4);
+
+
+/* Rectangle 11 */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 33.33%;
+bottom: 58.33%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 58.33%;
+bottom: 33.33%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* search-field */
+
+position: absolute;
+width: 288px;
+height: 128px;
+left: 16px;
+top: 376px;
+
+
+
+/* button */
+
+position: absolute;
+width: 288px;
+height: 56px;
+left: 16px;
+top: 448px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #2F71E5;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+
+
+/* Procurar */
+
+position: absolute;
+left: 37.85%;
+right: 37.85%;
+top: 28.57%;
+bottom: 28.57%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* field */
+
+position: absolute;
+width: 288px;
+height: 56px;
+left: 16px;
+top: 376px;
+
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 288px;
+height: 56px;
+left: 16px;
+top: 376px;
+
+/* main/white */
+background: #FFFFFF;
+/* simulator/gray/divider */
+border: 1px solid #D1D2D6;
+backdrop-filter: blur(50px);
+/* Observação: filtro de pano de fundo tem suporte de navegação mínimo */
+border-radius: 100px;
+
+
+/* Natureza */
+
+position: absolute;
+width: 256px;
+height: 22px;
+left: 32px;
+top: 393px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* idêntico à altura da caixa ou 138% */
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* O que está acontecendo no mundo? */
+
+position: absolute;
+width: 285px;
+height: 120px;
+left: 19px;
+top: 86px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+/* ou 111% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Encontre as últimas notícias sobre qualquer tema e salve elas em sua conta pessoal */
+
+position: absolute;
+width: 288px;
+height: 72px;
+left: 16px;
+top: 217.56px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+
+/* main/white */
+color: #FFFFFF;
+
