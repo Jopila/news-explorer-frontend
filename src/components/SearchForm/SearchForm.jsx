@@ -19,7 +19,7 @@ function SearchForm({ defaultQuery = '', onSearch }) {
           name="query"
           className="search-form__input"
           type="search"
-          placeholder="Insira um tema"
+          placeholder="Inserir tema"
           value={value}
           onChange={(e) => setValue(e.target.value)}
           required

@@ -4,6 +4,16 @@
 
 News Explorer is a React-based frontend application for searching and saving news articles. Built as part of a bootcamp project, it provides a clean interface for users to search news via an external API, view results, and save articles to their personal collection. The application features user authentication flows and responsive design for various screen sizes.
 
+## Recent Changes (December 2024)
+
+- **Header**: Added subtle bottom border line for visual separation
+- **Hero Section**: Centered all content (title, subtitle, search form)
+- **Subtitle text**: Updated to "Encontre as últimas notícias sobre qualquer tema e salve elas em sua conta pessoal."
+- **Search placeholder**: Changed to "Inserir tema"
+- **About Section**: Updated texts to match Figma design
+- **Footer**: Adjusted styling (copyright color, link colors)
+- **Vite config**: Configured with allowedHosts for Replit deployment
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.

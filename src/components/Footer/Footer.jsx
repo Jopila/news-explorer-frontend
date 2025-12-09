@@ -1,5 +1,3 @@
-import './Footer.css';
-
 import facebookIcon from '../../images/facebook-icon.svg';
 import githubIcon from '../../images/github.svg';
 import './Footer.css';

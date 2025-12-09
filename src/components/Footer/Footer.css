@@ -18,8 +18,8 @@
   }
 
 .footer__links a {
-  color: inherit;
-  font-weight: 500;
+  color: #1a1b22;
+  font-weight: 400;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -36,9 +36,9 @@
 }
 
 .footer__brand {
-  font-family: 'Roboto Slab', 'Inter', serif;
-  font-size: 20px;
-  color: #1a1b22;
+  font-family: 'Roboto', 'Inter', sans-serif;
+  font-size: 16px;
+  color: #b6bcbf;
 }
 
 @media (max-width: 900px) {

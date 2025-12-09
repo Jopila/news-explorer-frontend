@@ -11,7 +11,7 @@ function Main({ cards = [], defaultQuery = '', onSearch }) {
         <div className="main__hero-content">
           <h1 className="main__title">O que está acontecendo no mundo?</h1>
           <p className="main__subtitle">
-            Encontre as últimas notícias em qualquer assunto e salve-as em sua conta pessoal.
+            Encontre as últimas notícias sobre qualquer tema e salve elas em sua conta pessoal.
           </p>
           <SearchForm defaultQuery={defaultQuery} onSearch={onSearch} />
         </div>
