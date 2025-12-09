@@ -108,30 +108,39 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 640px) {
   .main__hero {
-    height: auto;
-    min-height: 400px;
+    height: 536px;
+  }
+
+  .main__hero-bg {
+    height: 536px;
   }
 
   .main__hero-content {
-    position: relative;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 86px;
+    left: 16px;
     transform: none;
-    padding: 100px 16px 40px;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
+    padding: 0;
+    width: 288px;
+    text-align: left;
   }
 
   .main__title {
     font-size: 36px;
     line-height: 40px;
-    width: 100%;
+    width: 285px;
   }
 
   .main__subtitle {
-    width: 100%;
+    margin-top: 12px;
+    width: 288px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .main__search-wrapper {
+    margin-top: 80px;
   }
 }
