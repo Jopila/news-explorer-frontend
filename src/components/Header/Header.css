@@ -99,6 +99,12 @@
     color: #fff;
   }
 
+  .header--light .header__menu-icon,
+  .header--light .header__menu-icon::before,
+  .header--light .header__menu-icon::after {
+    background: #1A1B22;
+  }
+
   .header__menu-btn {
     display: flex;
     align-items: center;
@@ -116,7 +122,7 @@
     display: block;
     width: 24px;
     height: 2px;
-    background: #1A1B22;
+    background: #fff;
     position: relative;
     transition: background 0.2s ease;
   }
@@ -128,7 +134,7 @@
     left: 0;
     width: 24px;
     height: 2px;
-    background: #1A1B22;
+    background: #fff;
     transition: transform 0.2s ease;
   }
 
@@ -138,12 +144,6 @@
 
   .header__menu-icon::after {
     top: 8px;
-  }
-
-  .header:not(.header--light) .header__menu-icon,
-  .header:not(.header--light) .header__menu-icon::before,
-  .header:not(.header--light) .header__menu-icon::after {
-    background: #fff;
   }
 
   .header__menu-btn--close .header__menu-icon {
@@ -174,6 +174,7 @@
     top: 56px;
     left: 0;
     right: 0;
+    bottom: 0;
     background: #1A1B22;
     padding: 16px;
     z-index: 100;
@@ -190,12 +191,6 @@
   }
 
   .header__overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 99;
+    display: none;
   }
 }
