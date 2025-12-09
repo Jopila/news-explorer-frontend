@@ -17,14 +17,20 @@ function NewsCard({ card, isSavedPage = false, isLoggedIn = false, isSaved = fal
         ) : (
           <div className="news-card__image-placeholder" />
         )}
+        {isSavedPage && card.keyword && (
+          <span className="news-card__keyword">{card.keyword}</span>
+        )}
         <div className="news-card__bookmark-wrapper">
           {!isLoggedIn && !isSavedPage && (
             <div className="news-card__tooltip">Sign in to save articles</div>
           )}
+          {isSavedPage && (
+            <div className="news-card__tooltip">Remove from saved</div>
+          )}
           <button
             type="button"
-            className={`news-card__bookmark${showSavedState ? ' news-card__bookmark--saved' : ''}`}
-            aria-label={showSavedState ? 'Remover dos salvos' : 'Salvar artigo'}
+            className={`news-card__bookmark${showSavedState ? ' news-card__bookmark--saved' : ''}${isSavedPage ? ' news-card__bookmark--trash' : ''}`}
+            aria-label={isSavedPage ? 'Remover dos salvos' : (showSavedState ? 'Remover dos salvos' : 'Salvar artigo')}
             onClick={handleBookmarkClick}
             disabled={!isLoggedIn && !isSavedPage}
           />

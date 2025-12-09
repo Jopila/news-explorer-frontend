@@ -6,6 +6,17 @@ News Explorer is a React-based frontend application for searching and saving new
 
 ## Recent Changes (December 2024)
 
+- **Saved News Page (Saved_News_Logged_In)**: Complete implementation with:
+  - SavedNewsHeader with white background, "Artigos salvos" eyebrow, user name display
+  - Shows "{userName}, você tem X artigos salvos" heading
+  - Keywords list (2 shown, rest as "e X outras")
+  - NewsCard with keyword tag (top-left) and trash icon for saved page
+  - "Remove from saved" tooltip on trash hover
+  - Gray background (#F5F6F7) for cards section
+- **Main_Logged_In**: Navigation with user button showing logged-in user name, logout functionality
+- **Main_Results_Logged_In**: Bookmark cards functionality, blue filled bookmark for saved articles
+- **Main_Results_Loading**: Spinner with "Procurando notícias..." text
+- **Main_Results_No_Results**: "Nada encontrado" with sad face icon
 - **Search Results Section**: Implemented Main_Results_Not_Logged_In with:
   - NewsCard (400x576px) with proper layout: date, title, description, source
   - 3-column grid layout with responsive breakpoints
@@ -58,8 +69,14 @@ The application follows a component-based architecture with CSS modules for styl
 
 ### State Management
 Currently uses React's built-in state management:
-- isLoggedIn - user authentication status (currently false)
+- isLoggedIn - user authentication status
+- currentUser - { name: 'username' } or null
+- registeredUser - stores registered user info for login
 - results - search results array
+- isLoading - loading state for search
+- hasSearched - tracks if search was performed (for NotFound display)
+- userSavedCards - array of saved card objects
+- savedCardIds - derived array of saved card IDs
 - isLoginOpen, isSignupOpen, isSignupSuccessOpen - popup visibility states
 
 ### Routing Structure

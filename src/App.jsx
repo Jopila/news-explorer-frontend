@@ -193,6 +193,7 @@ function App() {
             <SavedNews
               cards={userSavedCards}
               onBookmarkClick={handleBookmarkClick}
+              currentUser={currentUser}
             />
           }
         />

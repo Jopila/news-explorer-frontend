@@ -30,6 +30,20 @@
   background: linear-gradient(135deg, #e2e8f0, #cbd5e1);
 }
 
+.news-card__keyword {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  padding: 8px 22px;
+  background: #fff;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+
 .news-card__bookmark-wrapper {
   position: absolute;
   top: 24px;
@@ -58,6 +72,16 @@
 
 .news-card__bookmark--saved {
   background-image: url('../../images/icon-bookmark-full.svg');
+}
+
+.news-card__bookmark--trash {
+  background-image: url('../../images/icon-trash.svg');
+  background-size: 18px 19px;
+}
+
+.news-card__bookmark--trash:hover,
+.news-card__bookmark--trash:focus-visible {
+  background-image: url('../../images/icon-trash.svg');
 }
 
 .news-card__tooltip {
