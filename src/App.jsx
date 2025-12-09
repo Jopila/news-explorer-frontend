@@ -85,10 +85,14 @@ function App() {
 
   const handleLoginOpen = () => setIsLoginOpen(true);
   const handleLoginClose = () => setIsLoginOpen(false);
-  const handleLoginSubmit = (event) => {
-    event.preventDefault();
-    // TODO: integrar autenticação
+  const handleLoginSubmit = (formData) => {
+    // TODO: integrar autenticação com backend
     setIsLoginOpen(false);
+  };
+
+  const handleSwitchToRegister = () => {
+    setIsLoginOpen(false);
+    // TODO: abrir modal de registro
   };
 
   return (
@@ -101,7 +105,12 @@ function App() {
         />
         <Route path="/saved-news" element={<SavedNews cards={savedCards} />} />
       </Routes>
-      <LoginPopup isOpen={isLoginOpen} onClose={handleLoginClose} onSubmit={handleLoginSubmit} />
+      <LoginPopup
+        isOpen={isLoginOpen}
+        onClose={handleLoginClose}
+        onSubmit={handleLoginSubmit}
+        onSwitchToRegister={handleSwitchToRegister}
+      />
       <Footer />
     </div>
   );
