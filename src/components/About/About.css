@@ -1,26 +1,26 @@
 .about {
   display: grid;
-  grid-template-columns: 1.1fr 1.2fr;
-  gap: 32px;
-  max-width: 1200px;
-  margin: 80px auto;
-  padding: 0 24px;
+  grid-template-columns: auto 1fr;
+  gap: 56px;
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 80px 104px;
   color: #1a1b22;
+  box-sizing: border-box;
 }
 
 .about__image {
-  width: 100%;
-  max-width: 464px;
-  aspect-ratio: 1 / 1;
+  width: 464px;
+  height: 464px;
   border-radius: 50%;
   object-fit: cover;
-  min-height: 280px;
 }
 
 .about__content {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
+  padding-top: 52px;
 }
 
 .about__title {
@@ -40,6 +40,19 @@
 @media (max-width: 960px) {
   .about {
     grid-template-columns: 1fr;
-    margin: 60px auto;
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .about__image {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+  }
+
+  .about__content {
+    padding-top: 0;
   }
 }
