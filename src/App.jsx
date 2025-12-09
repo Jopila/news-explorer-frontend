@@ -100,6 +100,7 @@ function App() {
   const [results, setResults] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
+  const [registeredUser, setRegisteredUser] = useState(null);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isSignupOpen, setIsSignupOpen] = useState(false);
   const [isSignupSuccessOpen, setIsSignupSuccessOpen] = useState(false);
@@ -124,7 +125,7 @@ function App() {
   const handleLoginClose = () => setIsLoginOpen(false);
   const handleLoginSubmit = () => {
     setIsLoggedIn(true);
-    setCurrentUser({ name: 'Elise' });
+    setCurrentUser(registeredUser || { name: 'Usuário' });
     setIsLoginOpen(false);
   };
 
@@ -144,7 +145,8 @@ function App() {
     setSignupServerError('');
   };
 
-  const handleSignupSubmit = () => {
+  const handleSignupSubmit = ({ username }) => {
+    setRegisteredUser({ name: username });
     setIsSignupOpen(false);
     setSignupServerError('');
     setIsSignupSuccessOpen(true);
