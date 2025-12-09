@@ -1,6 +1,6 @@
 import './NewsCard.css';
 
-function NewsCard({ card, isSavedPage = false }) {
+function NewsCard({ card, isSavedPage = false, isLoggedIn = false }) {
   return (
     <article className="news-card">
       <div className="news-card__image">
@@ -10,22 +10,21 @@ function NewsCard({ card, isSavedPage = false }) {
           <div className="news-card__image-placeholder" />
         )}
         <div className="news-card__bookmark-wrapper">
+          {!isLoggedIn && !isSavedPage && (
+            <div className="news-card__tooltip">Sign in to save articles</div>
+          )}
           <button
             type="button"
             className={`news-card__bookmark${isSavedPage ? ' news-card__bookmark--saved' : ''}`}
             aria-label={isSavedPage ? 'Remover dos salvos' : 'Salvar artigo'}
           />
-          {!isSavedPage && <div className="news-card__tooltip">Faça login para salvar artigos</div>}
         </div>
       </div>
       <div className="news-card__body">
-        <div className="news-card__meta">
-          {card.keyword && <span className="news-card__keyword">{card.keyword}</span>}
-          <span className="news-card__date">{card.publishedAt}</span>
-        </div>
+        <span className="news-card__date">{card.publishedAt}</span>
         <h3 className="news-card__title">{card.title}</h3>
         <p className="news-card__description">{card.description}</p>
-        <div className="news-card__source">{card.source}</div>
+        <span className="news-card__source">{card.source}</span>
       </div>
     </article>
   );

@@ -1,18 +1,33 @@
+import { useState, useEffect } from 'react';
 import NewsCardList from '../NewsCardList/NewsCardList';
 import './SearchResults.css';
 
-function SearchResults({ cards }) {
+function SearchResults({ cards, isLoggedIn = false }) {
+  const CARDS_PER_PAGE = 3;
+  const [visibleCount, setVisibleCount] = useState(CARDS_PER_PAGE);
+
+  useEffect(() => {
+    setVisibleCount(CARDS_PER_PAGE);
+  }, [cards]);
+
+  const visibleCards = cards.slice(0, visibleCount);
+  const hasMoreCards = visibleCount < cards.length;
+
+  const handleShowMore = () => {
+    setVisibleCount((prev) => prev + CARDS_PER_PAGE);
+  };
+
   return (
     <section className="search-results">
-      <div className="search-results__header">
-        <h2 className="search-results__title">Procurar resultados</h2>
-      </div>
-      <NewsCardList title="" cards={cards} isSavedPage={false} />
-      <div className="search-results__actions">
-        <button type="button" className="search-results__button">
-          Mostrar mais
-        </button>
-      </div>
+      <h2 className="search-results__title">Procurar resultados</h2>
+      <NewsCardList cards={visibleCards} isSavedPage={false} isLoggedIn={isLoggedIn} />
+      {hasMoreCards && (
+        <div className="search-results__actions">
+          <button type="button" className="search-results__button" onClick={handleShowMore}>
+            Mostrar mais
+          </button>
+        </div>
+      )}
     </section>
   );
 }

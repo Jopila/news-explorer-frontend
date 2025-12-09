@@ -4,7 +4,7 @@ import About from '../About/About';
 import heroImage from '../../images/hero-background-image.jpg';
 import './Main.css';
 
-function Main({ cards = [], defaultQuery = '', onSearch }) {
+function Main({ cards = [], defaultQuery = '', onSearch, isLoggedIn = false }) {
   return (
     <main className="main">
       <section id="hero" className="main__hero">
@@ -20,7 +20,7 @@ function Main({ cards = [], defaultQuery = '', onSearch }) {
         </div>
       </section>
 
-      {cards.length > 0 && <SearchResults cards={cards} />}
+      {cards.length > 0 && <SearchResults cards={cards} isLoggedIn={isLoggedIn} />}
       <About />
     </main>
   );
