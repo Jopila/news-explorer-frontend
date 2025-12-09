@@ -1,0 +1,3316 @@
+/* Tablet_Main_Results_Not_Logged_In */
+
+position: relative;
+width: 768px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+width: 768px;
+height: 400px;
+left: 0px;
+top: 0px;
+
+
+
+/* georgia-de-lotz--UsJoNxLaNo-unsplash */
+
+position: absolute;
+width: 768px;
+height: 400px;
+left: calc(50% - 768px/2);
+top: 0px;
+
+background: url(georgia-de-lotz--UsJoNxLaNo-unsplash.jpg);
+
+
+/* O que está acontecendo no mundo? */
+
+position: absolute;
+width: 385px;
+height: 120px;
+left: 163px;
+top: 104px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+/* ou 111% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете. */
+
+position: absolute;
+width: 452px;
+height: 48px;
+left: 160px;
+top: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* search-field */
+
+position: absolute;
+width: 452px;
+height: 56px;
+left: 160px;
+top: 296px;
+
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 448px;
+height: 56px;
+left: 160px;
+top: 296px;
+
+/* main/white */
+background: #FFFFFF;
+/* simulator/gray/divider */
+border: 1px solid #D1D2D6;
+backdrop-filter: blur(50px);
+/* Observação: filtro de pano de fundo tem suporte de navegação mínimo */
+border-radius: 100px;
+
+
+/* button */
+
+position: absolute;
+width: 160px;
+height: 56px;
+left: 452px;
+top: 296px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #2F71E5;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+
+
+/* Искать */
+
+position: absolute;
+left: 31.25%;
+right: 30.62%;
+top: 26.79%;
+bottom: 30.36%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Политика */
+
+position: absolute;
+width: 228px;
+height: 22px;
+left: 184px;
+top: 313px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* idêntico à altura da caixa ou 138% */
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* tablet/about-author */
+
+position: absolute;
+width: 768px;
+height: 354px;
+left: 0px;
+top: 400px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 768px;
+height: 354px;
+left: 0px;
+top: 400px;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* comment/avatar/image-03 */
+
+position: absolute;
+width: 232px;
+height: 232px;
+left: 40px;
+top: 461px;
+
+
+
+/* comment/avatar/image-03 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(jakayla-toney-LmF4eBYs08c-unsplash.jpg);
+border-radius: 1000px;
+
+
+/* Esse bloco descreve o autor do projeto. Aqui você deve indicar seu nome, o que você faz e quais tecnologias de desenvolvedor você conhece.
+
+Você também pode falar sobre sua experiência com o Practicum, o que aprendeu lá e como pode ajudar clientes em potencial. */
+
+position: absolute;
+width: 424px;
+height: 168px;
+left: 304px;
+top: 490px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* ou 133% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* Sobre o autor */
+
+position: absolute;
+width: 424px;
+height: 34px;
+left: 304px;
+top: 440px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* ou 133% */
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* tablet/header */
+
+position: absolute;
+width: 768px;
+height: 66px;
+left: 0px;
+top: 0px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 93.55%;
+
+box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+
+
+/* shadow */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 95.17%;
+
+background: rgba(8, 29, 45, 0.3);
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 93.55%;
+
+background: rgba(196, 196, 196, 0.01);
+box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+
+
+/* Home */
+
+position: absolute;
+left: 64.58%;
+right: 27.08%;
+top: 2.15%;
+bottom: 95.51%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Group 16 */
+
+position: absolute;
+width: 152px;
+height: 40px;
+left: 576px;
+top: 14px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 75%;
+right: 5.21%;
+top: 1.37%;
+bottom: 94.73%;
+
+/* main/white */
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+
+
+/* Entrar */
+
+position: absolute;
+left: 76.56%;
+right: 6.77%;
+top: 2.15%;
+bottom: 95.51%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 64.71%;
+right: 27.47%;
+top: 6.15%;
+bottom: 93.55%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* NewsExplorer */
+
+position: absolute;
+left: 5.21%;
+right: 68.75%;
+top: 2.22%;
+bottom: 95.36%;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* ou 120% */
+display: flex;
+align-items: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+
+/* Overlay */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+opacity: 0.5;
+
+
+/* iPad 9.7" / Portrait / Light Uppercase */
+
+position: absolute;
+width: 768px;
+height: 264px;
+left: 0px;
+top: 760px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(206, 210, 217, 0.7);
+backdrop-filter: blur(35px);
+/* Observação: filtro de pano de fundo tem suporte de navegação mínimo */
+
+
+/* Others */
+
+position: absolute;
+width: 757px;
+height: 250px;
+left: 5px;
+top: 7px;
+
+
+
+/* .?123 */
+
+position: absolute;
+height: 56px;
+left: 0.65%;
+right: 91.93%;
+bottom: 7px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #AEB3BE;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Letter */
+
+position: absolute;
+height: 20px;
+left: 0px;
+right: 0px;
+top: calc(50% - 20px/2 - 1px);
+
+font-family: 'SF Pro Text';
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Shift */
+
+position: absolute;
+height: 56px;
+left: 0.65%;
+right: 91.93%;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Shift On */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: calc(50% - 32px/2 + 0.5px);
+top: calc(50% - 32px/2);
+
+
+
+/* on */
+
+position: absolute;
+left: 20.31%;
+right: 20.31%;
+top: 22.97%;
+bottom: 26.09%;
+
+background: #000000;
+
+
+/* Shift */
+
+position: absolute;
+height: 56px;
+left: 89.32%;
+right: 0.78%;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Shift On */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: calc(50% - 32px/2);
+top: calc(50% - 32px/2);
+
+
+
+/* on */
+
+position: absolute;
+left: 20.31%;
+right: 20.31%;
+top: 22.97%;
+bottom: 26.09%;
+
+background: #000000;
+
+
+/* .?123 */
+
+position: absolute;
+height: 56px;
+left: 80.47%;
+right: 9.64%;
+bottom: 7px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #AEB3BE;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Letter */
+
+position: absolute;
+height: 20px;
+left: 0px;
+right: 0px;
+top: calc(50% - 20px/2 - 1px);
+
+font-family: 'SF Pro Text';
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* .?123 */
+
+position: absolute;
+height: 56px;
+left: 85.42%;
+right: 0.78%;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #AEB3BE;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Letter */
+
+position: absolute;
+height: 20px;
+left: 0px;
+right: 0px;
+top: calc(50% - 20px/2 - 1px);
+
+font-family: 'SF Pro Text';
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Button / Icon */
+
+position: absolute;
+height: 57px;
+left: 91.28%;
+right: 0.78%;
+bottom: 200px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #AEB3BE;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Icon */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: calc(50% - 32px/2 + 0.5px);
+top: calc(50% - 32px/2 + 0.5px);
+
+
+
+/* Union */
+
+position: absolute;
+left: 14.06%;
+right: 14.06%;
+top: 23.44%;
+bottom: 23.44%;
+
+background: #000000;
+
+
+/* Button / Icon */
+
+position: absolute;
+height: 55px;
+left: 91.93%;
+right: 0.78%;
+bottom: 8px;
+
+
+
+/* Button / Style / Secondary */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #AEB3BE;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Hide Keyboard */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: calc(50% - 32px/2);
+top: calc(50% - 32px/2 + 0.5px);
+
+
+
+/* Union */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 17.19%;
+bottom: 4.81%;
+
+background: #000000;
+
+
+/* Space */
+
+position: absolute;
+width: 464px;
+height: 56px;
+left: 142px;
+bottom: 7px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Emoji */
+
+position: absolute;
+height: 56px;
+left: 9.64%;
+right: 83.07%;
+bottom: 7px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #AEB3BE;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Icon */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: calc(50% - 32px/2);
+top: calc(50% - 32px/2);
+
+
+
+/* Icon */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #000000;
+
+
+/* ! , */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 550px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* bottom */
+
+position: absolute;
+height: 24px;
+left: 0px;
+right: 0px;
+bottom: 12px;
+
+font-family: 'SF Pro Text';
+font-size: 20px;
+line-height: 23px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* top */
+
+position: absolute;
+height: 24px;
+left: 0px;
+right: 0px;
+top: 7px;
+
+font-family: 'SF Pro Text';
+font-size: 20px;
+line-height: 23px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* ?. */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 618px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* bottom */
+
+position: absolute;
+height: 24px;
+left: 0px;
+right: 0px;
+bottom: 11px;
+
+font-family: 'SF Pro Text';
+font-size: 20px;
+line-height: 23px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* top */
+
+position: absolute;
+height: 24px;
+left: 0px;
+right: 0px;
+top: 7px;
+
+font-family: 'SF Pro Text';
+font-size: 20px;
+line-height: 23px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Keys */
+
+position: absolute;
+width: 683px;
+height: 186px;
+left: 6px;
+top: 7px;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 58px;
+left: 6px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 75px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 58px;
+left: 145px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 214px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 58px;
+left: 284px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 353px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 58px;
+left: 423px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 492px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 58px;
+left: 562px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 35px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 104px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 173px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 242px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 311px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 380px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 449px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 74px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 142px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 210px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 278px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 346px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 414px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 482px;
+bottom: 71px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 518px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 57px;
+height: 56px;
+left: 587px;
+bottom: 135px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* Button / iPad / Combined / Small Uppercase */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 631px;
+bottom: 199px;
+
+
+
+/* bg */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 1px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+
+
+/* Bottom */
+
+position: absolute;
+height: 28px;
+left: 0px;
+right: 0px;
+bottom: 5px;
+
+font-family: 'SF Pro Text';
+font-size: 23px;
+line-height: 27px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Top */
+
+position: absolute;
+height: 17px;
+left: 0px;
+right: 0px;
+bottom: 34px;
+
+font-family: 'SF Pro Text';
+font-size: 14px;
+line-height: 17px;
+/* idêntico à altura da caixa */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #C0C0C0;
+
+
+
+/* iPad Controller */
+
+position: absolute;
+visibility: hidden;
+width: 122px;
+height: 32px;
+left: 20px;
+top: 12px;
+
+
+
+/* previous */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+
+
+/* Combined Shape */
+
+position: absolute;
+left: 15.62%;
+right: 15.62%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #87898D;
+
+
+/* next */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: calc(50% - 32px/2);
+top: 0px;
+
+
+
+/* Combined Shape */
+
+position: absolute;
+left: 15.62%;
+right: 15.62%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #87898D;
+
+
+/* clipboard */
+
+position: absolute;
+width: 32px;
+height: 32px;
+right: 0px;
+top: 0px;
+
+
+
+/* Combined Shape */
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: 7px;
+top: 6px;
+
+background: #87898D;
+
+
+/* Group 17 */
+
+position: absolute;
+width: 430px;
+height: 380px;
+left: 169px;
+top: 207px;
+
+
+
+/* Form */
+
+position: absolute;
+width: 430px;
+height: 380px;
+left: 169px;
+top: 207px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 430px;
+height: 380px;
+left: 169px;
+top: 207px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+border-radius: 16px;
+
+
+/* Field 2 */
+
+position: absolute;
+width: 358px;
+height: 47px;
+left: 205px;
+top: 373px;
+
+
+
+/* Это обязательное поле */
+
+position: absolute;
+visibility: hidden;
+width: 148px;
+height: 10.99px;
+left: 205px;
+top: 424.01px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FF0000;
+
+
+
+/* Line 2.1 */
+
+position: absolute;
+width: 358px;
+height: 0px;
+left: 205px;
+top: 420px;
+
+opacity: 0.2;
+border: 1px solid #000000;
+
+
+/* Insira a senha */
+
+position: absolute;
+width: 137px;
+height: 14px;
+left: 205px;
+top: 395px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+opacity: 0.2;
+
+
+/* Paasword */
+
+position: absolute;
+width: 139px;
+height: 14px;
+left: 205px;
+top: 373px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #2F71E5;
+
+
+
+/* Field 1 */
+
+position: absolute;
+width: 358px;
+height: 47px;
+left: 205px;
+top: 295px;
+
+
+
+/* Это обязательное поле */
+
+position: absolute;
+visibility: hidden;
+width: 148px;
+height: 10.99px;
+left: 205px;
+top: 346.01px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FF0000;
+
+
+
+/* Line 2 */
+
+position: absolute;
+width: 358px;
+height: 0px;
+left: 205px;
+top: 342px;
+
+opacity: 0.2;
+border: 1px solid #000000;
+
+
+/* Insira e-mail */
+
+position: absolute;
+width: 106px;
+height: 14px;
+left: 205px;
+top: 318px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+opacity: 0.2;
+
+
+/* E-mail */
+
+position: absolute;
+width: 66px;
+height: 14px;
+left: 205px;
+top: 295px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #2F71E5;
+
+
+
+/* Group 15 */
+
+position: absolute;
+width: 79px;
+height: 32px;
+left: 205px;
+top: 241px;
+
+
+
+/* Entrar */
+
+position: absolute;
+width: 79px;
+height: 32px;
+left: 205px;
+top: 241px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+/* main/primary */
+color: #1A1B22;
+
+
+
+/* ou Inscreva-se */
+
+position: absolute;
+width: 226px;
+height: 20px;
+left: 271px;
+top: 539px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* button */
+
+position: absolute;
+width: 358px;
+height: 64px;
+left: 205px;
+top: 459px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* simulator/gray/selected */
+background: #E6E8EB;
+border-radius: 100px;
+
+
+/* Entrar */
+
+position: absolute;
+left: 31.84%;
+right: 31.84%;
+top: 31.25%;
+bottom: 31.25%;
+
+/* button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* idêntico à altura da caixa ou 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* simulator/gray/text */
+color: #B6BCBF;
+
+
+
+/* close */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 605px;
+top: 161px;
+
+
+
+/* icons/black/back */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* bound */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Path 5 */
+
+position: absolute;
+left: 44.11%;
+right: 22.05%;
+top: 22.05%;
+bottom: 22.05%;
+
+/* main/white */
+background: #FFFFFF;
+
+
+/* Path 5 */
+
+position: absolute;
+left: 23.27%;
+right: 42.89%;
+top: 22.05%;
+bottom: 22.05%;
+
+/* main/white */
+background: #FFFFFF;
+transform: matrix(-1, 0, 0, 1, 0, 0);
