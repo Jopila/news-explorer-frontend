@@ -1,8 +1,10 @@
 .search-form {
   width: 608px;
-  height: 64px;
   position: relative;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .search-form__controls {
@@ -57,10 +59,19 @@
   background: #2a65d8;
 }
 
+.search-form__error {
+  margin: 0;
+  color: #d00;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  padding-left: 12px;
+}
+
 @media (max-width: 900px) {
   .search-form {
     width: 452px;
-    height: 56px;
+    height: auto;
   }
 
   .search-form__controls {
@@ -84,6 +95,7 @@
   .search-form {
     width: 288px;
     height: auto;
+    gap: 4px;
   }
 
   .search-form__controls {

@@ -7,9 +7,9 @@ function SavedNews({ cards, onBookmarkClick, currentUser }) {
   const userName = currentUser?.name || 'Usuário';
 
   return (
-    <div className="saved-news">
+    <main className="saved-news">
       <SavedNewsHeader total={cards.length} keywords={keywords} userName={userName} />
-      <div className="saved-news__content">
+      <section className="saved-news__content" aria-label="Artigos salvos">
         <NewsCardList
           title="Artigos salvos"
           cards={cards}
@@ -17,8 +17,8 @@ function SavedNews({ cards, onBookmarkClick, currentUser }) {
           isLoggedIn
           onBookmarkClick={onBookmarkClick}
         />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

@@ -88,6 +88,10 @@ function SignupPopup({ isOpen, onClose, onSubmit, onSwitchToLogin, serverError }
     setUsernameError(validateUsername(username));
   };
 
+  const emailErrorId = emailError ? 'signup-email-error' : undefined;
+  const passwordErrorId = passwordError ? 'signup-password-error' : undefined;
+  const usernameErrorId = usernameError ? 'signup-username-error' : undefined;
+
   const isFormValid = email && password && username && 
     !validateEmail(email) && !validatePassword(password) && !validateUsername(username);
 
@@ -145,9 +149,15 @@ function SignupPopup({ isOpen, onClose, onSubmit, onSwitchToLogin, serverError }
               onBlur={handleEmailBlur}
               placeholder="Insira e-mail"
               aria-label="E-mail"
+              aria-invalid={emailError ? 'true' : 'false'}
+              aria-describedby={emailErrorId}
             />
             <div className="signup-popup__line" />
-            {emailError && <span className="signup-popup__error">{emailError}</span>}
+            {emailError && (
+              <span id={emailErrorId} className="signup-popup__error">
+                {emailError}
+              </span>
+            )}
           </div>
 
           <div className="signup-popup__field">
@@ -161,9 +171,15 @@ function SignupPopup({ isOpen, onClose, onSubmit, onSwitchToLogin, serverError }
               onBlur={handlePasswordBlur}
               placeholder="Insira a senha"
               aria-label="Senha"
+              aria-invalid={passwordError ? 'true' : 'false'}
+              aria-describedby={passwordErrorId}
             />
             <div className="signup-popup__line" />
-            {passwordError && <span className="signup-popup__error">{passwordError}</span>}
+            {passwordError && (
+              <span id={passwordErrorId} className="signup-popup__error">
+                {passwordError}
+              </span>
+            )}
           </div>
 
           <div className="signup-popup__field signup-popup__field--last">
@@ -177,9 +193,15 @@ function SignupPopup({ isOpen, onClose, onSubmit, onSwitchToLogin, serverError }
               onBlur={handleUsernameBlur}
               placeholder="Insira seu nome de usuário"
               aria-label="Nome de usuário"
+              aria-invalid={usernameError ? 'true' : 'false'}
+              aria-describedby={usernameErrorId}
             />
             <div className="signup-popup__line" />
-            {usernameError && <span className="signup-popup__error">{usernameError}</span>}
+            {usernameError && (
+              <span id={usernameErrorId} className="signup-popup__error">
+                {usernameError}
+              </span>
+            )}
           </div>
 
           {serverError && <span className="signup-popup__server-error">{serverError}</span>}
