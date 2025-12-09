@@ -1,6 +1,7 @@
 .saved-news {
   min-height: 100vh;
   color: #1A1B22;
+  padding-top: 80px;
 }
 
 .saved-news__content {
