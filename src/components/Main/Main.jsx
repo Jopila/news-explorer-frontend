@@ -1,10 +1,11 @@
 import SearchForm from '../SearchForm/SearchForm';
 import SearchResults from '../SearchResults/SearchResults';
+import Preloader from '../Preloader/Preloader';
 import About from '../About/About';
 import heroImage from '../../images/hero-background-image.jpg';
 import './Main.css';
 
-function Main({ cards = [], defaultQuery = '', onSearch, isLoggedIn = false, savedCardIds = [], onBookmarkClick }) {
+function Main({ cards = [], defaultQuery = '', onSearch, isLoggedIn = false, isLoading = false, savedCardIds = [], onBookmarkClick }) {
   return (
     <main className="main">
       <section id="hero" className="main__hero">
@@ -20,7 +21,9 @@ function Main({ cards = [], defaultQuery = '', onSearch, isLoggedIn = false, sav
         </div>
       </section>
 
-      {cards.length > 0 && (
+      {isLoading && <Preloader />}
+
+      {!isLoading && cards.length > 0 && (
         <SearchResults
           cards={cards}
           isLoggedIn={isLoggedIn}

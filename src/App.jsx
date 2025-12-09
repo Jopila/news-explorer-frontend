@@ -75,6 +75,7 @@ const newsCards = [
 
 function App() {
   const [results, setResults] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
   const [registeredUser, setRegisteredUser] = useState(null);
@@ -91,12 +92,18 @@ function App() {
       return;
     }
 
-    const filtered = newsCards.filter((card) => {
-      const haystack = `${card.title} ${card.description} ${card.keyword}`.toLowerCase();
-      return haystack.includes(normalizedQuery);
-    });
+    setIsLoading(true);
+    setResults([]);
 
-    setResults(filtered);
+    setTimeout(() => {
+      const filtered = newsCards.filter((card) => {
+        const haystack = `${card.title} ${card.description} ${card.keyword}`.toLowerCase();
+        return haystack.includes(normalizedQuery);
+      });
+
+      setResults(filtered);
+      setIsLoading(false);
+    }, 1500);
   };
 
   const handleLoginOpen = () => setIsLoginOpen(true);
@@ -170,6 +177,7 @@ function App() {
               defaultQuery=""
               onSearch={handleSearch}
               isLoggedIn={isLoggedIn}
+              isLoading={isLoading}
               savedCardIds={savedCardIds}
               onBookmarkClick={handleBookmarkClick}
             />

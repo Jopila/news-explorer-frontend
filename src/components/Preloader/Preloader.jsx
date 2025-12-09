@@ -2,10 +2,10 @@ import './Preloader.css';
 
 function Preloader() {
   return (
-    <div className="preloader" role="status" aria-live="polite">
+    <section className="preloader" role="status" aria-live="polite">
       <div className="preloader__spinner" />
-      <span className="preloader__text">Carregando resultados...</span>
-    </div>
+      <span className="preloader__text">Procurando notícias...</span>
+    </section>
   );
 }
 
