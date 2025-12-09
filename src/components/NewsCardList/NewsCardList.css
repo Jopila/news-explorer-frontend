@@ -27,7 +27,8 @@
 
 @media (max-width: 520px) {
   .news-list__grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 288px;
     gap: 10px;
+    justify-content: center;
   }
 }

@@ -210,9 +210,8 @@
 
 @media (max-width: 640px) {
   .news-card {
-    width: 100%;
-    height: auto;
-    min-height: 400px;
+    width: 288px;
+    height: 440px;
   }
 
   .news-card__image {
@@ -223,9 +222,28 @@
     padding: 16px;
   }
 
-  .news-card__title {
-    font-size: 20px;
+  .news-card__date {
+    font-size: 18px;
     line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  .news-card__title {
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+
+  .news-card__description {
+    font-size: 16px;
+    line-height: 22px;
+    height: 66px;
+    -webkit-line-clamp: 3;
+  }
+
+  .news-card__source {
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .news-card__bookmark-wrapper {

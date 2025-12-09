@@ -94,9 +94,11 @@
 
 @media (max-width: 640px) {
   .footer {
-    height: auto;
+    height: 176px;
     padding: 20px 16px;
     position: relative;
+    display: flex;
+    flex-direction: column;
   }
 
   .footer__brand,
@@ -110,19 +112,25 @@
 
   .footer__brand {
     order: 3;
-    margin-top: 20px;
-    font-size: 14px;
+    margin-top: auto;
+    font-size: 13px;
+    line-height: 22px;
   }
 
   .footer__links {
     order: 1;
-    flex-wrap: wrap;
-    gap: 16px;
+    flex-direction: column;
+    gap: 0;
+    font-size: 18px;
+    line-height: 48px;
   }
 
   .footer__social {
     order: 2;
-    margin-top: 16px;
-    justify-content: flex-start;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    left: auto;
+    gap: 24px;
   }
 }

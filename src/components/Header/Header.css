@@ -80,13 +80,122 @@
   }
 }
 
-@media (max-width: 320px) {
+.header__menu-btn {
+  display: none;
+}
+
+@media (max-width: 640px) {
   .header {
     height: 56px;
     padding: 0 16px;
   }
 
   .header__brand {
-    font-size: 14px;
+    font-size: 16px;
+    z-index: 101;
+  }
+
+  .header--menu-open .header__brand {
+    color: #fff;
+  }
+
+  .header__menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101;
+  }
+
+  .header__menu-icon {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #1A1B22;
+    position: relative;
+    transition: background 0.2s ease;
+  }
+
+  .header__menu-icon::before,
+  .header__menu-icon::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: #1A1B22;
+    transition: transform 0.2s ease;
+  }
+
+  .header__menu-icon::before {
+    top: -8px;
+  }
+
+  .header__menu-icon::after {
+    top: 8px;
+  }
+
+  .header:not(.header--light) .header__menu-icon,
+  .header:not(.header--light) .header__menu-icon::before,
+  .header:not(.header--light) .header__menu-icon::after {
+    background: #fff;
+  }
+
+  .header__menu-btn--close .header__menu-icon {
+    background: transparent;
+  }
+
+  .header__menu-btn--close .header__menu-icon::before,
+  .header__menu-btn--close .header__menu-icon::after {
+    background: #fff;
+  }
+
+  .header__menu-btn--close .header__menu-icon::before {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .header__menu-btn--close .header__menu-icon::after {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .header__actions {
+    display: none;
+  }
+
+  .header__actions--open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    background: #1A1B22;
+    padding: 16px;
+    z-index: 100;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .header--menu-open {
+    background: #1A1B22;
+    box-shadow: none;
+  }
+
+  .header--menu-open .header__bg {
+    display: none;
+  }
+
+  .header__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
   }
 }
