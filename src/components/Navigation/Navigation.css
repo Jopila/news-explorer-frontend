@@ -44,6 +44,23 @@
   color: #fff;
 }
 
+.navigation__link--light {
+  color: #1A1B22;
+}
+
+.navigation__link--light.navigation__link--active {
+  color: #1A1B22;
+}
+
+.navigation__link--light.navigation__link--active::after {
+  background: #1A1B22;
+}
+
+.navigation__link--light:hover,
+.navigation__link--light:focus-visible {
+  color: #1A1B22;
+}
+
 .navigation__button {
   height: 48px;
   padding: 0 56px;
@@ -84,6 +101,16 @@
 .navigation__user-button:hover,
 .navigation__user-button:focus-visible {
   background: rgba(255, 255, 255, 0.1);
+}
+
+.navigation__user-button--light {
+  border: 1px solid #1A1B22;
+  color: #1A1B22;
+}
+
+.navigation__user-button--light:hover,
+.navigation__user-button--light:focus-visible {
+  background: rgba(26, 27, 34, 0.1);
 }
 
 .navigation__user-name {

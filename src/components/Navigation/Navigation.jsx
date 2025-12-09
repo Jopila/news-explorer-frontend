@@ -1,13 +1,15 @@
 import { NavLink } from 'react-router-dom';
 import logoutIcon from '../../images/header-icon-logout.svg';
+import logoutIconDark from '../../images/header-icon-logout-dark.svg';
 import './Navigation.css';
 
-function Navigation({ isLoggedIn, currentUser, onLoginClick, onLogout }) {
+function Navigation({ isLoggedIn, currentUser, onLoginClick, onLogout, theme = 'dark' }) {
+  const isLight = theme === 'light';
   const linkClass = ({ isActive }) =>
-    `navigation__link${isActive ? ' navigation__link--active' : ''}`;
+    `navigation__link${isActive ? ' navigation__link--active' : ''}${isLight ? ' navigation__link--light' : ''}`;
 
   return (
-    <nav className="navigation" aria-label="Menu principal">
+    <nav className={`navigation${isLight ? ' navigation--light' : ''}`} aria-label="Menu principal">
       <ul className="navigation__list">
         <li className="navigation__item">
           <NavLink to="/" end className={linkClass}>
@@ -25,12 +27,12 @@ function Navigation({ isLoggedIn, currentUser, onLoginClick, onLogout }) {
           {isLoggedIn ? (
             <button
               type="button"
-              className="navigation__user-button"
+              className={`navigation__user-button${isLight ? ' navigation__user-button--light' : ''}`}
               onClick={onLogout}
             >
               <span className="navigation__user-name">{currentUser?.name || 'Usuário'}</span>
               <img
-                src={logoutIcon}
+                src={isLight ? logoutIconDark : logoutIcon}
                 alt="Sair"
                 className="navigation__logout-icon"
               />
@@ -38,7 +40,7 @@ function Navigation({ isLoggedIn, currentUser, onLoginClick, onLogout }) {
           ) : (
             <button
               type="button"
-              className="navigation__button"
+              className={`navigation__button${isLight ? ' navigation__button--light' : ''}`}
               onClick={onLoginClick}
             >
               Entrar

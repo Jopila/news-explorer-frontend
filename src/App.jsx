@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import SavedNews from './components/SavedNews/SavedNews';
@@ -74,6 +74,10 @@ const newsCards = [
 
 
 function App() {
+  const location = useLocation();
+  const isSavedNewsPage = location.pathname === '/saved-news';
+  const headerTheme = isSavedNewsPage ? 'light' : 'dark';
+
   const [results, setResults] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
@@ -170,6 +174,7 @@ function App() {
         currentUser={currentUser}
         onLoginClick={handleLoginOpen}
         onLogout={handleLogout}
+        theme={headerTheme}
       />
       <Routes>
         <Route
