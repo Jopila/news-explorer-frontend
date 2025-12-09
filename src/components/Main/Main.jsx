@@ -1,11 +1,14 @@
 import SearchForm from '../SearchForm/SearchForm';
 import SearchResults from '../SearchResults/SearchResults';
 import Preloader from '../Preloader/Preloader';
+import NotFound from '../NotFound/NotFound';
 import About from '../About/About';
 import heroImage from '../../images/hero-background-image.jpg';
 import './Main.css';
 
-function Main({ cards = [], defaultQuery = '', onSearch, isLoggedIn = false, isLoading = false, savedCardIds = [], onBookmarkClick }) {
+function Main({ cards = [], defaultQuery = '', onSearch, isLoggedIn = false, isLoading = false, hasSearched = false, savedCardIds = [], onBookmarkClick }) {
+  const showNotFound = !isLoading && hasSearched && cards.length === 0;
+
   return (
     <main className="main">
       <section id="hero" className="main__hero">
@@ -22,6 +25,8 @@ function Main({ cards = [], defaultQuery = '', onSearch, isLoggedIn = false, isL
       </section>
 
       {isLoading && <Preloader />}
+
+      {showNotFound && <NotFound />}
 
       {!isLoading && cards.length > 0 && (
         <SearchResults

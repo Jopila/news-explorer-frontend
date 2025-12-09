@@ -76,6 +76,7 @@ const newsCards = [
 function App() {
   const [results, setResults] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [hasSearched, setHasSearched] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
   const [registeredUser, setRegisteredUser] = useState(null);
@@ -89,11 +90,13 @@ function App() {
     const normalizedQuery = query.trim().toLowerCase();
     if (!normalizedQuery) {
       setResults([]);
+      setHasSearched(false);
       return;
     }
 
     setIsLoading(true);
     setResults([]);
+    setHasSearched(true);
 
     setTimeout(() => {
       const filtered = newsCards.filter((card) => {
@@ -178,6 +181,7 @@ function App() {
               onSearch={handleSearch}
               isLoggedIn={isLoggedIn}
               isLoading={isLoading}
+              hasSearched={hasSearched}
               savedCardIds={savedCardIds}
               onBookmarkClick={handleBookmarkClick}
             />
