@@ -58,7 +58,7 @@
   gap: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .header {
     height: 66px;
     display: flex;
@@ -70,7 +70,7 @@
   .header__brand {
     position: static;
     width: auto;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
   }
 

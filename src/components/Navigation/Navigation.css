@@ -125,41 +125,41 @@
   height: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .navigation__list {
     gap: 16px;
   }
 
   .navigation__link {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .navigation__link--active::after {
     bottom: -21px;
-    height: 2px;
+    height: 3px;
   }
 
   .navigation__button {
     height: 40px;
     padding: 0 24px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .navigation__user-button {
     height: 40px;
     padding: 0 12px;
-    font-size: 14px;
+    font-size: 16px;
     gap: 6px;
   }
 
   .navigation__user-name {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .navigation__logout-icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
   }
 }
 

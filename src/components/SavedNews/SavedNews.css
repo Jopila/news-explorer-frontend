@@ -9,7 +9,7 @@
   padding: 62px 104px 80px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .saved-news {
     padding-top: 66px;
   }
