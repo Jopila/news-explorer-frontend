@@ -8,10 +8,10 @@ function About() {
       <div className="about__content">
         <h2 className="about__title">Sobre o autor</h2>
         <p className="about__text">
-          Esse bloco descreve o autor do projeto. Aqui você deve indicar seu nome, o que você faz e quais tecnologias de desenvolvedor você conhece.
+          Meu nome é Marcelo Marangoni e sou desenvolvedor full-stack formado pelo bootcamp de Desenvolvimento Web da TripleTen. Trabalho com JavaScript moderno, React, Node.js, Express e MongoDB, criando aplicações web focadas em experiência do usuário, performance e código limpo.
         </p>
         <p className="about__text">
-          Você também pode falar sobre sua experiência com o Practicum, o que aprendeu lá e como pode ajudar clientes em potencial.
+          Venho de uma transição de carreira — atuei por anos na área de gestão de condomínios e sou formado em Direito — e trouxe dessa trajetória uma visão forte de organização, responsabilidade e foco em resolver problemas reais de pessoas e empresas. No projeto final, reúno tudo o que aprendi ao longo do curso para entregar uma aplicação completa, pronta para evoluir e ajudar potenciais clientes nos seus desafios digitais.
         </p>
       </div>
     </section>

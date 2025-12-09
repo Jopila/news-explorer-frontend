@@ -17,7 +17,7 @@ Frontend em React (Vite) para o aplicativo News Explorer do bootcamp TripleTen. 
 ## Estrutura do projeto
 
 - `src/main.jsx` — monta o app com React Router.
-- `src/App.jsx` — estado global simples (busca, loading, login fake, popups, cards salvos).
+- `src/components/App/App.jsx` — estado global simples (busca, loading, login fake, popups, cards salvos).
 - `src/components` — componentes React com CSS próprio:
   - Layout: `Header`, `Navigation`, `Footer`
   - Busca/resultado: `SearchForm`, `SearchResults`, `NewsCard`, `NewsCardList`, `Preloader`, `NotFound`
@@ -26,7 +26,8 @@ Frontend em React (Vite) para o aplicativo News Explorer do bootcamp TripleTen. 
   - Informativo: `About`
 - `src/images` — imagens estáticas.
 - `src/vendor/fonts` — fontes locais (Inter, Roboto, Roboto Slab, Source Sans Pro).
-- `src/utils` — vazio (reservado para integrações futuras).
+- `src/vendor/normalize.css` — reset básico para consistência entre navegadores.
+- `src/utils` — helpers (ex.: `mockNews.js` com dados de notícias mockadas).
 
 ## Funcionalidades atuais
 
@@ -51,7 +52,7 @@ Frontend em React (Vite) para o aplicativo News Explorer do bootcamp TripleTen. 
 
 ## Estado e comportamento
 
-- Estados no `App.jsx`: `results`, `isLoading`, `hasSearched`, `isLoggedIn`, `currentUser`, `registeredUser`, `userSavedCards`, `savedCardIds`, controle de popups e erros de servidor (placeholder).
+- Estados no `App.jsx`: `results`, `isLoading`, `hasSearched`, `isLoggedIn`, `currentUser`, `registeredUser`, `userSavedCards`, `savedCardIds`, controle de popups e erros de servidor (placeholder). Dados de notícias vindos de `src/utils/mockNews.js` até integrar o backend.
 - Busca limpa estado ao clicar na marca (“NewsExplorer”).
 - Bookmarks alternam entre salvo/remoção; no modo não logado o botão mostra tooltip e fica desabilitado.
 
