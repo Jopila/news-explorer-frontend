@@ -4,6 +4,8 @@ import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import SavedNews from './components/SavedNews/SavedNews';
 import LoginPopup from './components/LoginPopup/LoginPopup';
+import SignupPopup from './components/SignupPopup/SignupPopup';
+import SignupSuccessPopup from './components/SignupSuccessPopup/SignupSuccessPopup';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
@@ -67,6 +69,9 @@ const savedCards = [
 function App() {
   const [results, setResults] = useState([]);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const [isSignupOpen, setIsSignupOpen] = useState(false);
+  const [isSignupSuccessOpen, setIsSignupSuccessOpen] = useState(false);
+  const [signupServerError, setSignupServerError] = useState('');
 
   const handleSearch = (query) => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -86,13 +91,35 @@ function App() {
   const handleLoginOpen = () => setIsLoginOpen(true);
   const handleLoginClose = () => setIsLoginOpen(false);
   const handleLoginSubmit = (formData) => {
-    // TODO: integrar autenticação com backend
     setIsLoginOpen(false);
   };
 
   const handleSwitchToRegister = () => {
     setIsLoginOpen(false);
-    // TODO: abrir modal de registro
+    setSignupServerError('');
+    setIsSignupOpen(true);
+  };
+
+  const handleSignupClose = () => {
+    setIsSignupOpen(false);
+    setSignupServerError('');
+  };
+
+  const handleSignupSubmit = (formData) => {
+    setIsSignupOpen(false);
+    setSignupServerError('');
+    setIsSignupSuccessOpen(true);
+  };
+
+  const handleSwitchToLogin = () => {
+    setIsSignupOpen(false);
+    setIsSignupSuccessOpen(false);
+    setSignupServerError('');
+    setIsLoginOpen(true);
+  };
+
+  const handleSignupSuccessClose = () => {
+    setIsSignupSuccessOpen(false);
   };
 
   return (
@@ -110,6 +137,18 @@ function App() {
         onClose={handleLoginClose}
         onSubmit={handleLoginSubmit}
         onSwitchToRegister={handleSwitchToRegister}
+      />
+      <SignupPopup
+        isOpen={isSignupOpen}
+        onClose={handleSignupClose}
+        onSubmit={handleSignupSubmit}
+        onSwitchToLogin={handleSwitchToLogin}
+        serverError={signupServerError}
+      />
+      <SignupSuccessPopup
+        isOpen={isSignupSuccessOpen}
+        onClose={handleSignupSuccessClose}
+        onSwitchToLogin={handleSwitchToLogin}
       />
       <Footer />
     </div>
