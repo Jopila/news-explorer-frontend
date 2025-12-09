@@ -154,29 +154,66 @@
   opacity: 0.7;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .signup-popup {
-    width: 100%;
-    max-width: 320px;
+    width: 320px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 
   .signup-popup__form {
-    width: 100%;
-    padding: 24px 20px;
-    min-height: auto;
+    width: 320px;
+    min-height: 560px;
+    padding: 16px;
+    border-radius: 0;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   }
 
   .signup-popup__close {
-    top: -44px;
-    right: 0;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .signup-popup__close-icon {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
   }
 
   .signup-popup__title {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 46px 0 22px;
+  }
+
+  .signup-popup__field {
+    width: 288px;
+    margin-bottom: 30px;
+  }
+
+  .signup-popup__field--last {
+    margin-bottom: 24px;
+  }
+
+  .signup-popup__input {
+    font-size: 14px;
+    padding: 9px 0 11px;
   }
 
   .signup-popup__button {
-    height: 56px;
-    font-size: 16px;
+    width: 288px;
+    height: 64px;
+    font-size: 18px;
+  }
+
+  .signup-popup__switch {
+    font-size: 14px;
+    margin: 16px 0 0;
   }
 }
