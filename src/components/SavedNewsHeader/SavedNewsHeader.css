@@ -56,25 +56,27 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 640px) {
   .saved-header {
-    padding: 16px 16px 24px;
+    padding: 8px 16px 32px;
   }
 
   .saved-header__eyebrow {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 24px;
     margin: 0 0 12px;
   }
 
   .saved-header__title {
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0 0 12px;
+    font-size: 30px;
+    line-height: 34px;
+    width: 288px;
+    margin: 0 0 50px;
   }
 
   .saved-header__keywords {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 24px;
+    width: 288px;
   }
 }
