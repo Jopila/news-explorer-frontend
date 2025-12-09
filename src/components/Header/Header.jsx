@@ -5,6 +5,7 @@ import './Header.css';
 function Header({ onLoginClick }) {
   return (
     <header className="header">
+      <div className="header__bg"></div>
       <Link to="/" className="header__brand">
         NewsExplorer
       </Link>

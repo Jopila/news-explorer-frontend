@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="main-not-logged-in">
+    		<div class="footer">
+      			<div class="rectangle">
+      			</div>
+      			<div class="supersite-powered-by">© 2021 Supersite, desenvolvido pela News API</div>
+      			<div class="footer-inner">
+        				<div class="home-parent">
+          					<div class="home">Home</div>
+          					<div class="practicum">Practicum</div>
+        				</div>
+      			</div>
+      			<div class="socialvk">
+        				<div class="home-parent">
+          					<div class="home-parent">
+          					</div>
+          					<img class="path-icon" alt="">
+          					
+        				</div>
+      			</div>
+      			<div class="icongithub">
+        				<div class="rectangle2">
+        				</div>
+        				<img class="vector-icon" alt="">
+        				
+      			</div>
+      			<div class="socialfb">
+        				<div class="home-parent">
+          					<div class="home-parent">
+          					</div>
+        				</div>
+        				<img class="iconmonstr-facebook-6" alt="">
+        				
+      			</div>
+    		</div>
+    		<div class="about-author">
+      			<div class="rectangle">
+      			</div>
+      			<img class="commentavatarimage-03-icon" alt="">
+      			
+      			<div class="esse-bloco-descreve">Esse bloco descreve o autor do projeto. Aqui você deve indicar seu nome, o que você faz e quais tecnologias de desenvolvedor você conhece.<br><br>Você também pode falar sobre sua experiência com o Practicum, o que aprendeu lá e como pode ajudar clientes em potencial.</div>
+      			<div class="sobre-o-autor">Sobre o autor</div>
+    		</div>
+    		<div class="search">
+      			<img class="georgia-de-lotz-usjonxlano-un-icon" alt="">
+      			
+      			<div class="o-que-est">O que está<br>acontecendo no mundo?</div>
+      			<div class="encontre-as-ltimas">Encontre as últimas notícias sobre qualquer tema e salve elas em sua conta pessoal</div>
+      			<div class="search-field">
+        				<img class="search-field-child" alt="">
+        				
+        				<div class="button">
+          					<div class="rectangle3">
+          					</div>
+          					<div class="procurar">Procurar</div>
+        				</div>
+        				<div class="inserir-tema">Inserir tema</div>
+      			</div>
+    		</div>
+    		<div class="headerlogout">
+      			<div class="bg">
+      			</div>
+      			<div class="rectangle4">
+      			</div>
+      			<div class="entrar">Entrar</div>
+      			<div class="home2">Home</div>
+      			<img class="vector-stroke-icon" alt="">
+      			
+      			<img class="vector-stroke-icon2" alt="">
+      			
+      			<b class="newsexplorer">NewsExplorer</b>
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+</body>
+</html>

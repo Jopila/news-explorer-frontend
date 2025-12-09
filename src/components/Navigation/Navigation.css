@@ -6,24 +6,32 @@
 .navigation__list {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 34px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+.navigation__item {
+  position: relative;
+}
+
 .navigation__link {
   color: #fff;
   font-weight: 500;
-  padding: 8px 0;
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.2s ease, color 0.2s ease;
-  font-size: 18px;
   line-height: 24px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
-.navigation__link--active {
-  border-color: #fff;
+.navigation__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #fff;
 }
 
 .navigation__link:hover,
@@ -32,20 +40,20 @@
 }
 
 .navigation__button {
-  padding: 12px 24px;
+  height: 48px;
+  padding: 0 56px;
   border-radius: 100px;
   border: 1px solid #fff;
   background: transparent;
   color: #fff;
   font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
-  min-width: 132px;
+  box-sizing: border-box;
 }
 
 .navigation__button:hover,
 .navigation__button:focus-visible {
-  background: #fff;
-  color: #1a1b22;
-  box-shadow: 0 5px 15px rgba(14, 26, 57, 0.2);
+  background: rgba(255, 255, 255, 0.1);
 }
