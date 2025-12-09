@@ -17,7 +17,7 @@ Frontend em React (Vite) para o aplicativo News Explorer do bootcamp TripleTen. 
 ## Estrutura do projeto
 
 - `src/main.jsx` — monta o app com React Router.
-- `src/components/App/App.jsx` — estado global simples (busca, loading, login fake, popups, cards salvos).
+- `src/components/App/App.jsx` — estado global simples (busca, loading, login mock, popups, cards salvos).
 - `src/components` — componentes React com CSS próprio:
   - Layout: `Header`, `Navigation`, `Footer`
   - Busca/resultado: `SearchForm`, `SearchResults`, `NewsCard`, `NewsCardList`, `Preloader`, `NotFound`
@@ -27,7 +27,7 @@ Frontend em React (Vite) para o aplicativo News Explorer do bootcamp TripleTen. 
 - `src/images` — imagens estáticas.
 - `src/vendor/fonts` — fontes locais (Inter, Roboto, Roboto Slab, Source Sans Pro).
 - `src/vendor/normalize.css` — reset básico para consistência entre navegadores.
-- `src/utils` — helpers (ex.: `mockNews.js` com dados de notícias mockadas).
+- `src/utils` — helpers (`newsApi.js` para NewsAPI, `savedNewsApi.js` para artigos salvos, `config.js` para constantes/env, `mockNews.js` legado).
 
 ## Funcionalidades atuais
 
@@ -52,7 +52,7 @@ Frontend em React (Vite) para o aplicativo News Explorer do bootcamp TripleTen. 
 
 ## Estado e comportamento
 
-- Estados no `App.jsx`: `results`, `isLoading`, `hasSearched`, `isLoggedIn`, `currentUser`, `registeredUser`, `userSavedCards`, `savedCardIds`, controle de popups e erros de servidor (placeholder). Dados de notícias vindos de `src/utils/mockNews.js` até integrar o backend.
+- Estados no `App.jsx`: `results`, `lastQuery`, `isLoading`, `hasSearched`, `apiError`, `isLoggedIn`, `authToken`, `currentUser`, `registeredUser`, `userSavedCards`, `savedCardIds`, controle de popups e erros de servidor. Busca via NewsAPI em `newsApi.js` com fallback de chave/env e cache da última busca em `localStorage`. Artigos salvos sincronizados via `savedNewsApi.js` (POST/DELETE/GET) com token carregado de `localStorage` ou env.
 - Busca limpa estado ao clicar na marca (“NewsExplorer”).
 - Bookmarks alternam entre salvo/remoção; no modo não logado o botão mostra tooltip e fica desabilitado.
 
