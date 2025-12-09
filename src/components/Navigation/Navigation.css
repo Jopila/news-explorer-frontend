@@ -17,11 +17,16 @@
 }
 
 .navigation__link {
-  color: #fff;
+  color: #b6bcbf;
   font-weight: 500;
   line-height: 24px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
+  transition: color 0.2s ease;
+}
+
+.navigation__link--active {
+  color: #fff;
 }
 
 .navigation__link--active::after {
@@ -56,4 +61,39 @@
 .navigation__button:hover,
 .navigation__button:focus-visible {
   background: rgba(255, 255, 255, 0.1);
+}
+
+.navigation__user-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+  padding: 0 16px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.2s ease;
+}
+
+.navigation__user-button:hover,
+.navigation__user-button:focus-visible {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.navigation__user-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.navigation__logout-icon {
+  width: 24px;
+  height: 24px;
 }

@@ -98,7 +98,8 @@ const savedCards = [
 
 function App() {
   const [results, setResults] = useState([]);
-  const [isLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [currentUser, setCurrentUser] = useState(null);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isSignupOpen, setIsSignupOpen] = useState(false);
   const [isSignupSuccessOpen, setIsSignupSuccessOpen] = useState(false);
@@ -122,7 +123,14 @@ function App() {
   const handleLoginOpen = () => setIsLoginOpen(true);
   const handleLoginClose = () => setIsLoginOpen(false);
   const handleLoginSubmit = () => {
+    setIsLoggedIn(true);
+    setCurrentUser({ name: 'Elise' });
     setIsLoginOpen(false);
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+    setCurrentUser(null);
   };
 
   const handleSwitchToRegister = () => {
@@ -155,7 +163,12 @@ function App() {
 
   return (
     <div className="app">
-      <Header onLoginClick={handleLoginOpen} />
+      <Header
+        isLoggedIn={isLoggedIn}
+        currentUser={currentUser}
+        onLoginClick={handleLoginOpen}
+        onLogout={handleLogout}
+      />
       <Routes>
         <Route
           path="/"
