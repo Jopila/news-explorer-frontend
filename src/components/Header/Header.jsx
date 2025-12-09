@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import './Header.css';
 
-function Header({ isLoggedIn, currentUser, onLoginClick, onLogout, theme = 'dark', hideMenuButton = false }) {
+function Header({ isLoggedIn, currentUser, onLoginClick, onLogout, theme = 'dark', hideMenuButton = false, onBrandClick }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const headerClass = `header${theme === 'light' ? ' header--light' : ''}${isMobileMenuOpen ? ' header--menu-open' : ''}`;
 
@@ -18,7 +18,7 @@ function Header({ isLoggedIn, currentUser, onLoginClick, onLogout, theme = 'dark
   return (
     <header className={headerClass}>
       <div className="header__bg"></div>
-      <Link to="/" className="header__brand">
+      <Link to="/" className="header__brand" onClick={onBrandClick}>
         NewsExplorer
       </Link>
       {!hideMenuButton && (

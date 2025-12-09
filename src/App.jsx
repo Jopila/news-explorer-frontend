@@ -167,6 +167,12 @@ function App() {
     setIsSignupSuccessOpen(false);
   };
 
+  const handleBrandClick = () => {
+    setResults([]);
+    setHasSearched(false);
+    setIsLoading(false);
+  };
+
   const isAnyPopupOpen = isLoginOpen || isSignupOpen || isSignupSuccessOpen;
 
   return (
@@ -178,6 +184,7 @@ function App() {
         onLogout={handleLogout}
         theme={headerTheme}
         hideMenuButton={isAnyPopupOpen}
+        onBrandClick={handleBrandClick}
       />
       <Routes>
         <Route
