@@ -73,6 +73,43 @@
 
 @media (max-width: 900px) {
   .main__hero {
+    height: 400px;
+  }
+
+  .main__hero-bg {
+    height: 400px;
+  }
+
+  .main__hero-content {
+    position: absolute;
+    top: 104px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 452px;
+    padding: 0;
+    text-align: left;
+  }
+
+  .main__title {
+    font-size: 36px;
+    line-height: 40px;
+    width: 425px;
+  }
+
+  .main__subtitle {
+    margin-top: 16px;
+    width: 452px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .main__search-wrapper {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main__hero {
     height: auto;
     min-height: 400px;
   }
@@ -82,13 +119,19 @@
     top: 0;
     left: 0;
     transform: none;
-    padding: 120px 20px 60px;
+    padding: 100px 16px 40px;
     width: 100%;
     box-sizing: border-box;
+    text-align: center;
   }
 
   .main__title {
     font-size: 36px;
     line-height: 40px;
+    width: 100%;
+  }
+
+  .main__subtitle {
+    width: 100%;
   }
 }

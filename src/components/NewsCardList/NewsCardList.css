@@ -11,13 +11,21 @@
   }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 960px) {
   .news-list__grid {
-    grid-template-columns: repeat(1, minmax(288px, 400px));
+    grid-template-columns: repeat(3, 224px);
+    gap: 8px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
+  .news-list__grid {
+    grid-template-columns: repeat(2, 224px);
+    gap: 8px;
+  }
+}
+
+@media (max-width: 520px) {
   .news-list__grid {
     grid-template-columns: 1fr;
     gap: 10px;

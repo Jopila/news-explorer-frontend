@@ -70,8 +70,32 @@
 
 @media (max-width: 900px) {
   .footer {
+    height: 64px;
+  }
+
+  .footer__brand {
+    left: 5.21%;
+    top: 37.5%;
+    font-size: 16px;
+  }
+
+  .footer__links {
+    left: 57.94%;
+    top: 32.81%;
+    gap: 16px;
+  }
+
+  .footer__social {
+    right: 5.21%;
+    top: 31.25%;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
     height: auto;
-    padding: 20px;
+    padding: 20px 16px;
     position: relative;
   }
 
@@ -84,12 +108,21 @@
     right: 0;
   }
 
+  .footer__brand {
+    order: 3;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
   .footer__links {
+    order: 1;
     flex-wrap: wrap;
-    margin-top: 16px;
+    gap: 16px;
   }
 
   .footer__social {
+    order: 2;
     margin-top: 16px;
+    justify-content: flex-start;
   }
 }
