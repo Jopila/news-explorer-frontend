@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import NewsCardList from '../NewsCardList/NewsCardList';
 import './SearchResults.css';
 
-function SearchResults({ cards, isLoggedIn = false }) {
+function SearchResults({ cards, isLoggedIn = false, savedCardIds = [], onBookmarkClick }) {
   const CARDS_PER_PAGE = 3;
   const [visibleCount, setVisibleCount] = useState(CARDS_PER_PAGE);
 
@@ -20,7 +20,13 @@ function SearchResults({ cards, isLoggedIn = false }) {
   return (
     <section className="search-results">
       <h2 className="search-results__title">Procurar resultados</h2>
-      <NewsCardList cards={visibleCards} isSavedPage={false} isLoggedIn={isLoggedIn} />
+      <NewsCardList
+        cards={visibleCards}
+        isSavedPage={false}
+        isLoggedIn={isLoggedIn}
+        savedCardIds={savedCardIds}
+        onBookmarkClick={onBookmarkClick}
+      />
       {hasMoreCards && (
         <div className="search-results__actions">
           <button type="button" className="search-results__button" onClick={handleShowMore}>

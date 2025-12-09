@@ -1,7 +1,7 @@
 import './NewsCardList.css';
 import NewsCard from '../NewsCard/NewsCard';
 
-function NewsCardList({ cards = [], isSavedPage = false, isLoggedIn = false }) {
+function NewsCardList({ cards = [], isSavedPage = false, isLoggedIn = false, savedCardIds = [], onBookmarkClick }) {
   const hasCards = cards && cards.length > 0;
 
   if (!hasCards) {
@@ -16,6 +16,8 @@ function NewsCardList({ cards = [], isSavedPage = false, isLoggedIn = false }) {
           card={card}
           isSavedPage={isSavedPage}
           isLoggedIn={isLoggedIn}
+          isSaved={savedCardIds.includes(card.id)}
+          onBookmarkClick={onBookmarkClick}
         />
       ))}
     </div>

@@ -72,35 +72,13 @@ const newsCards = [
   },
 ];
 
-const savedCards = [
-  {
-    id: '7',
-    keyword: 'Educação',
-    title: 'Título de placeholder para artigo salvo no design',
-    description:
-      'Use este texto fictício para simular a lista de artigos salvos. Ele segue o padrão visual do Figma.',
-    source: 'Global Ed',
-    publishedAt: '12 de setembro de 2024',
-    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: '8',
-    keyword: 'Saúde',
-    title: 'Placeholder extra para o estado salvo',
-    description:
-      'Conteúdo temporário conforme o design. Substitua assim que a integração com a API estiver pronta.',
-    source: 'Health Today',
-    publishedAt: '30 de agosto de 2024',
-    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80',
-  },
-  ...newsCards,
-];
 
 function App() {
   const [results, setResults] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
   const [registeredUser, setRegisteredUser] = useState(null);
+  const [userSavedCards, setUserSavedCards] = useState([]);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isSignupOpen, setIsSignupOpen] = useState(false);
   const [isSignupSuccessOpen, setIsSignupSuccessOpen] = useState(false);
@@ -133,6 +111,18 @@ function App() {
     setIsLoggedIn(false);
     setCurrentUser(null);
   };
+
+  const handleBookmarkClick = (card) => {
+    setUserSavedCards((prev) => {
+      const isAlreadySaved = prev.some((c) => c.id === card.id);
+      if (isAlreadySaved) {
+        return prev.filter((c) => c.id !== card.id);
+      }
+      return [...prev, card];
+    });
+  };
+
+  const savedCardIds = userSavedCards.map((c) => c.id);
 
   const handleSwitchToRegister = () => {
     setIsLoginOpen(false);
@@ -180,10 +170,20 @@ function App() {
               defaultQuery=""
               onSearch={handleSearch}
               isLoggedIn={isLoggedIn}
+              savedCardIds={savedCardIds}
+              onBookmarkClick={handleBookmarkClick}
             />
           }
         />
-        <Route path="/saved-news" element={<SavedNews cards={savedCards} />} />
+        <Route
+          path="/saved-news"
+          element={
+            <SavedNews
+              cards={userSavedCards}
+              onBookmarkClick={handleBookmarkClick}
+            />
+          }
+        />
       </Routes>
       <LoginPopup
         isOpen={isLoginOpen}

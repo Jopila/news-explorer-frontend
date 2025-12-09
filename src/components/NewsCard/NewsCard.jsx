@@ -1,6 +1,14 @@
 import './NewsCard.css';
 
-function NewsCard({ card, isSavedPage = false, isLoggedIn = false }) {
+function NewsCard({ card, isSavedPage = false, isLoggedIn = false, isSaved = false, onBookmarkClick }) {
+  const handleBookmarkClick = () => {
+    if (onBookmarkClick) {
+      onBookmarkClick(card);
+    }
+  };
+
+  const showSavedState = isSavedPage || isSaved;
+
   return (
     <article className="news-card">
       <div className="news-card__image">
@@ -15,8 +23,10 @@ function NewsCard({ card, isSavedPage = false, isLoggedIn = false }) {
           )}
           <button
             type="button"
-            className={`news-card__bookmark${isSavedPage ? ' news-card__bookmark--saved' : ''}`}
-            aria-label={isSavedPage ? 'Remover dos salvos' : 'Salvar artigo'}
+            className={`news-card__bookmark${showSavedState ? ' news-card__bookmark--saved' : ''}`}
+            aria-label={showSavedState ? 'Remover dos salvos' : 'Salvar artigo'}
+            onClick={handleBookmarkClick}
+            disabled={!isLoggedIn && !isSavedPage}
           />
         </div>
       </div>
