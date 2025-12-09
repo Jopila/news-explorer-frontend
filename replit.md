@@ -6,6 +6,17 @@ News Explorer is a React-based frontend application for searching and saving new
 
 ## Recent Changes (December 2024)
 
+### Mobile Responsive (320px-640px)
+- **Header mobile menu**: Hamburger icon, opens dark menu (#1A1B22) at top, shows Home + Entrar button
+- **Hero section**: 536px height, title 36px/40px, content at left 16px top 86px
+- **SearchForm**: Stacked layout 288x56px input + button with 16px gap
+- **NewsCard**: 288x440px, image 196px, title 22px/24px
+- **NewsCardList**: Single column 288px centered
+- **About section**: 272px circular image centered, title 30px
+- **Footer**: 176px height, stacked links, social icons top-right
+
+### Tablet Responsive (768px-960px)
+
 - **Saved News Page (Saved_News_Logged_In)**: Complete implementation with:
   - SavedNewsHeader with white background, "Artigos salvos" eyebrow, user name display
   - Shows "{userName}, você tem X artigos salvos" heading
