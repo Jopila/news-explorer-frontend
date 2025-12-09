@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import PopupWithForm from '../PopupWithForm/PopupWithForm';
+import closeIcon from '../../images/close-button.svg';
 import './LoginPopup.css';
 
 function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
@@ -98,11 +99,10 @@ function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
       hideFooter
     >
       <div className="login-popup">
+        <button type="button" className="login-popup__close" aria-label="Fechar" onClick={handleClose}>
+          <img src={closeIcon} alt="Fechar" className="login-popup__close-icon" />
+        </button>
         <div className="login-popup__form">
-          <button type="button" className="login-popup__close" aria-label="Fechar" onClick={handleClose}>
-            ×
-          </button>
-
           <h2 className="login-popup__title">Entrar</h2>
 
           <div className="login-popup__field">

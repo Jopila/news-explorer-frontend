@@ -1,5 +1,5 @@
 .login-popup {
-  width: 100%;
+  width: 430px;
   position: relative;
   text-align: center;
   font-family: Inter, sans-serif;
@@ -20,19 +20,27 @@
 
 .login-popup__close {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: -40px;
+  right: -40px;
+  width: 40px;
+  height: 40px;
   border: none;
   background: transparent;
-  font-size: 20px;
   cursor: pointer;
-  color: #1a1b22;
   padding: 0;
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .login-popup__close:hover {
   opacity: 0.7;
+}
+
+.login-popup__close-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .login-popup__title {
@@ -139,10 +147,19 @@
 }
 
 @media screen and (max-width: 500px) {
-  .login-popup__form {
+  .login-popup {
     width: 100%;
     max-width: 320px;
+  }
+
+  .login-popup__form {
+    width: 100%;
     padding: 24px 20px;
+  }
+
+  .login-popup__close {
+    top: -44px;
+    right: 0;
   }
 
   .login-popup__title {
