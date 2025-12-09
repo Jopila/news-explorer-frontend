@@ -7,7 +7,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer__brand">NewsExplorer</div>
+      <div className="footer__brand">© 2021 Supersite, desenvolvido pela News API</div>
       <ul className="footer__links">
         <li>
           <a href="/" aria-label="Home">
