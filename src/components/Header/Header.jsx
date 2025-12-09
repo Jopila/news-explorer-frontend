@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import './Header.css';
 
-function Header({ isLoggedIn, currentUser, onLoginClick, onLogout, theme = 'dark' }) {
+function Header({ isLoggedIn, currentUser, onLoginClick, onLogout, theme = 'dark', hideMenuButton = false }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const headerClass = `header${theme === 'light' ? ' header--light' : ''}${isMobileMenuOpen ? ' header--menu-open' : ''}`;
 
@@ -21,13 +21,15 @@ function Header({ isLoggedIn, currentUser, onLoginClick, onLogout, theme = 'dark
       <Link to="/" className="header__brand">
         NewsExplorer
       </Link>
-      <button 
-        className={`header__menu-btn${isMobileMenuOpen ? ' header__menu-btn--close' : ''}`}
-        onClick={toggleMobileMenu}
-        aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
-      >
-        <span className="header__menu-icon"></span>
-      </button>
+      {!hideMenuButton && (
+        <button 
+          className={`header__menu-btn${isMobileMenuOpen ? ' header__menu-btn--close' : ''}`}
+          onClick={toggleMobileMenu}
+          aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
+        >
+          <span className="header__menu-icon"></span>
+        </button>
+      )}
       <div className={`header__actions${isMobileMenuOpen ? ' header__actions--open' : ''}`}>
         <Navigation
           isLoggedIn={isLoggedIn}

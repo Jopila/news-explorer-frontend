@@ -167,6 +167,8 @@ function App() {
     setIsSignupSuccessOpen(false);
   };
 
+  const isAnyPopupOpen = isLoginOpen || isSignupOpen || isSignupSuccessOpen;
+
   return (
     <div className="app">
       <Header
@@ -175,6 +177,7 @@ function App() {
         onLoginClick={handleLoginOpen}
         onLogout={handleLogout}
         theme={headerTheme}
+        hideMenuButton={isAnyPopupOpen}
       />
       <Routes>
         <Route
