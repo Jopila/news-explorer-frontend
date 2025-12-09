@@ -10,12 +10,20 @@
 }
 
 @media screen and (max-width: 768px) {
+  .saved-news {
+    padding-top: 66px;
+  }
+
   .saved-news__content {
     padding: 32px 40px 56px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
+  .saved-news {
+    padding-top: 56px;
+  }
+
   .saved-news__content {
     padding: 24px 16px 40px;
   }
