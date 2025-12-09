@@ -110,11 +110,19 @@
 
 @media (max-width: 640px) {
   .main__hero {
+    position: relative;
+    width: 320px;
     height: 536px;
+    max-width: 100%;
   }
 
   .main__hero-bg {
+    position: absolute;
+    width: 320px;
     height: 536px;
+    left: 0;
+    top: 0;
+    max-width: 100%;
   }
 
   .main__hero-content {
