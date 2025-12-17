@@ -1,16 +1,14 @@
 import './SavedNewsHeader.css';
 
 function SavedNewsHeader({ total, keywords, userName }) {
-  const topKeywords = keywords.slice(0, 2);
-  const remaining = keywords.length - topKeywords.length;
-
   const formatKeywords = () => {
-    if (topKeywords.length === 0) return '';
-    const keywordText = topKeywords.join(', ');
-    if (remaining > 0) {
-      return `${keywordText}, e ${remaining} outras`;
+    if (keywords.length === 0) return '';
+    if (keywords.length <= 3) {
+      return keywords.join(', ');
     }
-    return keywordText;
+    const [first, second] = keywords;
+    const remaining = keywords.length - 2;
+    return `${first}, ${second}, e mais ${remaining}`;
   };
 
   return (
