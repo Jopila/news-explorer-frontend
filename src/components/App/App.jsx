@@ -7,9 +7,10 @@ import LoginPopup from '../LoginPopup/LoginPopup';
 import SignupPopup from '../SignupPopup/SignupPopup';
 import SignupSuccessPopup from '../SignupSuccessPopup/SignupSuccessPopup';
 import Footer from '../Footer/Footer';
+import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 import { fetchNews } from '../../utils/newsApi';
-import { MAIN_API_TOKEN } from '../../utils/config';
 import { deleteArticle, getSavedArticles, saveArticle, setAuthToken } from '../../utils/savedNewsApi';
+import { getUserInfo, signin, signup } from '../../utils/MainApi';
 import './App.css';
 
 function App() {
@@ -25,12 +26,12 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [authToken, setAuthTokenState] = useState('');
   const [currentUser, setCurrentUser] = useState(null);
-  const [registeredUser, setRegisteredUser] = useState(null);
   const [userSavedCards, setUserSavedCards] = useState([]);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isSignupOpen, setIsSignupOpen] = useState(false);
   const [isSignupSuccessOpen, setIsSignupSuccessOpen] = useState(false);
   const [signupServerError, setSignupServerError] = useState('');
+  const [loginServerError, setLoginServerError] = useState('');
 
   useEffect(() => {
     const saved = localStorage.getItem('newsExplorer:lastSearch');
@@ -47,12 +48,23 @@ function App() {
 
   useEffect(() => {
     const storedToken = localStorage.getItem('newsExplorer:token');
-    if (storedToken) {
-      setAuthTokenState(storedToken);
-      setAuthToken(storedToken);
-      setIsLoggedIn(true);
-      fetchSavedArticles(storedToken);
-    }
+    if (!storedToken) return;
+    setAuthTokenState(storedToken);
+    setAuthToken(storedToken);
+    setIsLoggedIn(true);
+    getUserInfo(storedToken)
+      .then((user) => {
+        setCurrentUser(user);
+        fetchSavedArticles(storedToken);
+      })
+      .catch((error) => {
+        console.error('Erro ao validar sessão', error);
+        localStorage.removeItem('newsExplorer:token');
+        setAuthTokenState('');
+        setAuthToken('');
+        setIsLoggedIn(false);
+        setCurrentUser(null);
+      });
   }, []);
 
   const fetchSavedArticles = async (tokenParam) => {
@@ -102,19 +114,33 @@ function App() {
     }
   };
 
-  const handleLoginOpen = () => setIsLoginOpen(true);
-  const handleLoginClose = () => setIsLoginOpen(false);
-  const handleLoginSubmit = () => {
-    const token = MAIN_API_TOKEN || authToken;
-    if (token) {
+  const handleLoginOpen = () => {
+    setLoginServerError('');
+    setIsLoginOpen(true);
+  };
+  const handleLoginClose = () => {
+    setLoginServerError('');
+    setIsLoginOpen(false);
+  };
+  const handleLoginSubmit = async ({ email, password }) => {
+    setLoginServerError('');
+    try {
+      const data = await signin({ email, password });
+      const token = data?.token;
+      if (!token) {
+        throw new Error('Token não recebido');
+      }
       setAuthTokenState(token);
       setAuthToken(token);
       localStorage.setItem('newsExplorer:token', token);
+      const user = await getUserInfo(token);
+      setCurrentUser(user);
+      setIsLoggedIn(true);
+      setIsLoginOpen(false);
       fetchSavedArticles(token);
+    } catch (error) {
+      setLoginServerError(error.message || 'Não foi possível entrar');
     }
-    setIsLoggedIn(true);
-    setCurrentUser(registeredUser || { name: 'Usuário' });
-    setIsLoginOpen(false);
   };
 
   const handleLogout = () => {
@@ -166,6 +192,7 @@ function App() {
 
   const handleSwitchToRegister = () => {
     setIsLoginOpen(false);
+    setLoginServerError('');
     setSignupServerError('');
     setIsSignupOpen(true);
   };
@@ -175,17 +202,22 @@ function App() {
     setSignupServerError('');
   };
 
-  const handleSignupSubmit = ({ username }) => {
-    setRegisteredUser({ name: username });
-    setIsSignupOpen(false);
+  const handleSignupSubmit = async ({ email, password, username }) => {
     setSignupServerError('');
-    setIsSignupSuccessOpen(true);
+    try {
+      await signup({ name: username, email, password });
+      setIsSignupOpen(false);
+      setIsSignupSuccessOpen(true);
+    } catch (error) {
+      setSignupServerError(error.message || 'Não foi possível cadastrar');
+    }
   };
 
   const handleSwitchToLogin = () => {
     setIsSignupOpen(false);
     setIsSignupSuccessOpen(false);
     setSignupServerError('');
+    setLoginServerError('');
     setIsLoginOpen(true);
   };
 
@@ -232,7 +264,10 @@ function App() {
         <Route
           path="/saved-news"
           element={
-            <SavedNews
+            <ProtectedRoute
+              isLoggedIn={isLoggedIn}
+              onUnauthorized={handleLoginOpen}
+              element={SavedNews}
               cards={userSavedCards}
               onBookmarkClick={handleBookmarkClick}
               currentUser={currentUser}
@@ -245,6 +280,7 @@ function App() {
         onClose={handleLoginClose}
         onSubmit={handleLoginSubmit}
         onSwitchToRegister={handleSwitchToRegister}
+        serverError={loginServerError}
       />
       <SignupPopup
         isOpen={isSignupOpen}

@@ -3,7 +3,15 @@ import NewsCardList from '../NewsCardList/NewsCardList';
 import './SavedNews.css';
 
 function SavedNews({ cards, onBookmarkClick, currentUser }) {
-  const keywords = [...new Set(cards.map((card) => card.keyword).filter(Boolean))];
+  const keywordCounts = cards.reduce((acc, card) => {
+    const keyword = card.keyword?.trim();
+    if (!keyword) return acc;
+    acc[keyword] = (acc[keyword] || 0) + 1;
+    return acc;
+  }, {});
+  const keywords = Object.entries(keywordCounts)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'pt-BR'))
+    .map(([keyword]) => keyword);
   const userName = currentUser?.name || 'Usuário';
 
   return (

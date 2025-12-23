@@ -1,73 +1,63 @@
-# News Explorer – Frontend
+# News Explorer - Frontend
 
-Frontend em React (Vite) para o aplicativo News Explorer do bootcamp TripleTen. Hoje a busca e o login são simulados em memória: as notícias são filtradas de um array estático e a autenticação/salvamento usa estados locais (sem API ou persistência).
+Frontend do projeto News Explorer do bootcamp TripleTen. Aplicacao em React (Vite) que busca noticias via NewsAPI e permite cadastro/login, alem de salvar/remover artigos usando a API do backend.
+
+## URL do projeto
+
+https://newsexplorerapp.netlify.app
+
+## Funcionalidades
+
+- Busca noticias dos ultimos 7 dias (pt-BR), com estado de carregamento, erro e vazio.
+- Paginacao incremental com botao "Mostrar mais" (3 cards por clique).
+- Cadastro e login com validacao de formulario e feedback de erro.
+- Utilizacao de banco de dados para persistencia das informacoes aos usuarios.
+- Salvar/remover artigos com sincronizacao no backend e indicadores visuais.
+- Area de artigos salvos com resumo de palavras-chave.
+- Persistencia local do ultimo termo de busca e do token de sessao.
 
 ## Requisitos
 
-- Node.js 18+ (recomendado Node 20). Em WSL, use WSL 2 para melhor compatibilidade.
+- Node.js 18+ (recomendado Node 20).
+
+## Configuracao
+
+Crie um arquivo `.env` na raiz (opcional) com as variaveis abaixo:
+
+```bash
+VITE_NEWS_API_KEY=sua_chave
+VITE_MAIN_API_BASE_URL=https://seu-backend.exemplo
+```
+
+Observacoes:
+
+- Se `VITE_NEWS_API_KEY` nao for definida, o app usa a chave padrao presente no codigo.
+- Se `VITE_MAIN_API_BASE_URL` nao for definida, o app usa o backend padrao configurado em `src/utils/config.js`.
 
 ## Scripts
 
-- `npm install` — instala dependências.
-- `npm run dev` — ambiente de desenvolvimento com Vite.
-- `npm run build` — build de produção.
-- `npm run preview` — serve o build localmente.
-- `npm run lint` — analisa o código com ESLint.
-
-## Estrutura do projeto
-
-- `src/main.jsx` — monta o app com React Router.
-- `src/components/App/App.jsx` — estado global simples (busca, loading, login mock, popups, cards salvos).
-- `src/components` — componentes React com CSS próprio:
-  - Layout: `Header`, `Navigation`, `Footer`
-  - Busca/resultado: `SearchForm`, `SearchResults`, `NewsCard`, `NewsCardList`, `Preloader`, `NotFound`
-  - Salvos: `SavedNews`, `SavedNewsHeader`
-  - Popups: `LoginPopup`, `SignupPopup`, `SignupSuccessPopup`, `PopupWithForm`, `ModalWithForm` (genérico)
-  - Informativo: `About`
-- `src/images` — imagens estáticas.
-- `src/vendor/fonts` — fontes locais (Inter, Roboto, Roboto Slab, Source Sans Pro).
-- `src/vendor/normalize.css` — reset básico para consistência entre navegadores.
-- `src/utils` — helpers (`newsApi.js` para NewsAPI, `savedNewsApi.js` para artigos salvos, `config.js` para constantes/env, `mockNews.js` legado).
-
-## Funcionalidades atuais
-
-- Busca client-side com atraso simulado (1.5s) e filtro por título/descrição/palavra-chave.
-- Paginação simples de resultados (3 cards por clique em “Mostrar mais”).
-- Login/cadastro de exemplo: validação de formulário, estados locais, popups de sucesso/erro.
-- Salvamento/remoção de artigos em memória com destaque de bookmark/trash; tooltips para estados não logados.
-- Página de artigos salvos com resumo de palavras-chave (“2 principais, e X outras”).
-- Troca de tema do Header conforme a rota (`/` escuro, `/saved-news` claro) e menu mobile hambúrguer.
-
-## UI e responsividade (conforme Figma / replit.md)
-
-- Mobile (320–640px): hero 536px de altura, título 36/40px, SearchForm empilhado 288x56; cards 288x440 com imagem 196px; grid 1 coluna; header menu escuro (#1A1B22); footer 176px empilhado; About com foto circular centralizada 272px.
-- Tablet (~768–960px): grid 2–3 colunas de cards (224px), Saved News com keyword tag e trash, header 66px, espaçamentos ajustados.
-- Desktop: cards 400x576 em 3 colunas, seção resultados com botão “Mostrar mais” 288x64; hero centralizado com fundo; subtítulo atualizado.
-- Cores principais: #1A1B22 (texto/tema escuro), #B6BCBF (texto secundário), #2F71E5 (ações), #F5F6F7 (fundos).
+- `npm install` - instala dependencias.
+- `npm run dev` - ambiente de desenvolvimento com Vite.
+- `npm run build` - build de producao.
+- `npm run preview` - serve o build localmente.
+- `npm run lint` - analisa o codigo com ESLint.
 
 ## Rotas
 
-- `/` — busca, resultados e seção “Sobre o autor”.
-- `/saved-news` — lista artigos salvos do estado local (sem proteção real de rota).
+- `/` - busca, resultados e secao "Sobre o autor".
+- `/saved-news` - artigos salvos (rota protegida: redireciona para `/` e abre login se nao autenticado).
 
-## Estado e comportamento
+## Estrutura do projeto
 
-- Estados no `App.jsx`: `results`, `lastQuery`, `isLoading`, `hasSearched`, `apiError`, `isLoggedIn`, `authToken`, `currentUser`, `registeredUser`, `userSavedCards`, `savedCardIds`, controle de popups e erros de servidor. Busca via NewsAPI em `newsApi.js` com fallback de chave/env e cache da última busca em `localStorage`. Artigos salvos sincronizados via `savedNewsApi.js` (POST/DELETE/GET) com token carregado de `localStorage` ou env.
-- Busca limpa estado ao clicar na marca (“NewsExplorer”).
-- Bookmarks alternam entre salvo/remoção; no modo não logado o botão mostra tooltip e fica desabilitado.
+- `src/main.jsx` - inicializa o React Router e o App.
+- `src/components/App/App.jsx` - estado global (busca, autenticacao, popups, artigos salvos).
+- `src/components` - componentes de UI (Header, SearchForm, SearchResults, NewsCard, SavedNews, popups, etc.).
+- `src/utils/newsApi.js` - consumo da NewsAPI.
+- `src/utils/MainApi.js` - cadastro, login e perfil do usuario.
+- `src/utils/savedNewsApi.js` - CRUD de artigos salvos.
+- `src/vendor` - fontes locais e normalize.
 
-## Dependências
+## Stack
 
-- Runtime: `react`, `react-dom`, `react-router-dom`.
-- Dev: `vite`, `@vitejs/plugin-react`, `eslint` (com plugins react-hooks e react-refresh), `globals`.
-
-## Configuração de desenvolvimento
-
-- Vite configurado para rodar em `0.0.0.0:5000` com `allowedHosts` para Replit.
-- ESLint: regras recomendadas JS + react-hooks + only-export-components (warn).
-
-## Próximos passos sugeridos
-
-- Integrar APIs reais (news backend e auth), mover estados para context/queries.
-- Proteger a rota de salvos e persistir sessão/tokens.
-- Adicionar testes (unitários de UI e integração de fluxo de busca/salvos).
+- React 18, React Router, Vite
+- ESLint

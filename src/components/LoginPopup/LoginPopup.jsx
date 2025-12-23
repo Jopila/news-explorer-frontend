@@ -3,7 +3,7 @@ import PopupWithForm from '../PopupWithForm/PopupWithForm';
 import closeIcon from '../../images/close-button.svg';
 import './LoginPopup.css';
 
-function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
+function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister, serverError }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [emailError, setEmailError] = useState('');
@@ -114,6 +114,7 @@ function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
               className={`login-popup__input ${emailError ? 'login-popup__input--error' : ''}`}
               type="email"
               name="email"
+              required
               value={email}
               onChange={handleEmailChange}
               onBlur={handleEmailBlur}
@@ -136,6 +137,7 @@ function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
               className={`login-popup__input ${passwordError ? 'login-popup__input--error' : ''}`}
               type="password"
               name="password"
+              required
               value={password}
               onChange={handlePasswordChange}
               onBlur={handlePasswordBlur}
@@ -151,6 +153,8 @@ function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
               </span>
             )}
           </div>
+
+          {serverError && <span className="login-popup__server-error">{serverError}</span>}
 
           <button
             type="submit"

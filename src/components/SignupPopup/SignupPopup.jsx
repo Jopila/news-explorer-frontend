@@ -144,6 +144,7 @@ function SignupPopup({ isOpen, onClose, onSubmit, onSwitchToLogin, serverError }
               className={`signup-popup__input ${emailError ? 'signup-popup__input--error' : ''}`}
               type="email"
               name="email"
+              required
               value={email}
               onChange={handleEmailChange}
               onBlur={handleEmailBlur}
@@ -166,6 +167,7 @@ function SignupPopup({ isOpen, onClose, onSubmit, onSwitchToLogin, serverError }
               className={`signup-popup__input ${passwordError ? 'signup-popup__input--error' : ''}`}
               type="password"
               name="password"
+              required
               value={password}
               onChange={handlePasswordChange}
               onBlur={handlePasswordBlur}
@@ -188,6 +190,7 @@ function SignupPopup({ isOpen, onClose, onSubmit, onSwitchToLogin, serverError }
               className={`signup-popup__input ${usernameError ? 'signup-popup__input--error' : ''}`}
               type="text"
               name="username"
+              required
               value={username}
               onChange={handleUsernameChange}
               onBlur={handleUsernameBlur}
