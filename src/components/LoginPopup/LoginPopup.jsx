@@ -64,6 +64,9 @@ function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
     setPasswordError(validatePassword(password));
   };
 
+  const emailErrorId = emailError ? 'login-email-error' : undefined;
+  const passwordErrorId = passwordError ? 'login-password-error' : undefined;
+
   const isFormValid = email && password && !validateEmail(email) && !validatePassword(password);
 
   const handleSubmit = (e) => {
@@ -116,9 +119,15 @@ function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
               onBlur={handleEmailBlur}
               placeholder="Insira e-mail"
               aria-label="E-mail"
+              aria-invalid={emailError ? 'true' : 'false'}
+              aria-describedby={emailErrorId}
             />
             <div className="login-popup__line" />
-            {emailError && <span className="login-popup__error">{emailError}</span>}
+            {emailError && (
+              <span id={emailErrorId} className="login-popup__error">
+                {emailError}
+              </span>
+            )}
           </div>
 
           <div className="login-popup__field login-popup__field--password">
@@ -132,9 +141,15 @@ function LoginPopup({ isOpen, onClose, onSubmit, onSwitchToRegister }) {
               onBlur={handlePasswordBlur}
               placeholder="Insira a senha"
               aria-label="Senha"
+              aria-invalid={passwordError ? 'true' : 'false'}
+              aria-describedby={passwordErrorId}
             />
             <div className="login-popup__line" />
-            {passwordError && <span className="login-popup__error">{passwordError}</span>}
+            {passwordError && (
+              <span id={passwordErrorId} className="login-popup__error">
+                {passwordError}
+              </span>
+            )}
           </div>
 
           <button
